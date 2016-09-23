@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+<title>X-Wing › How Does BB-8 Work?</title>
+ 
+<meta name="description" content="This is how BB-8 fits in the T-70 X-wing fighter">
+<meta name="author" content="Carlos Sánchez">
+<meta name="keywords" content="bb-8 bb8 how works star wars episode VII the force awakens droid astromech sphero 3d webgl verold box"/>
+ 
+<!-- Mobile viewport optimization h5bp.com/ad -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- allows zoom -->
+
+ 
+<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+ 
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="icon.png"/>
+<link rel="icon" href="icon.png"/> 
+  
+<link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+
+
+<!-- For Facebook -->
+<meta property="og:title" content="BB-8 in a T-70 X-wing"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://www.howbb8works.com/img/xwing.png"/>
+<meta property="og:url" content="http://www.howbb8works.com/xwing"/>
+<meta property="og:site_name" content="BB-8 in a T-70 X-wing"/>
+<meta property="og:description" content="This is how BB-8 fits in the T-70 X-wing fighter"/>
+<meta property="fb:app_id" content="578258009022221"/>
+ 
+<!-- for Twitter -->          
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@chocotuits">
+<meta name="twitter:title" content="BB-8 in a T-70 X-wing" />
+<meta name="twitter:description" content="This is how BB-8 fits in the T-70 X-wing fighter" />
+<meta name="twitter:image" content="http://www.howbb8works.com/img/xwing.png" />
+
+<!-- For Google+ -->
+<!-- <html itemscope itemtype="http://schema.org/Article"> -->
+<meta itemprop="name" content="BB-8 in a T-70 X-wing">
+<meta itemprop="description" content="This is how BB-8 fits in the T-70 X-wing fighter">
+<meta itemprop="image" content="http://www.howbb8works.com/img/xwing.png">
+
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	
+
+<!-- jQuery 2.x does not support Internet Explorer 6, 7, or 8 -->	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../js/ui-min.js" async></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10359362-19', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+<body class="xwing-body">
+
+
+	<h1 class="xwing-title"><a href="../index.html">howbb8works.com/</a>xwing</h1>
+  <div class="xwing-caption">
+  <p>Like the R2 series, <span class="bb8">BB-8</span> is also a pilot's assistant that fits in the socket behind the cockpit of X-wing fighters. This is the T-70 model used by the Resistance in The Force Awakens, a modern version of the X-wing starfighter used by the Rebel Alliance.</p>
+  	<div class="xwing-social-share">
+		<ul class="social-btns">
+			<li><div class="fb-share-button" data-href="http://www.howbb8works.com/xwing" data-layout="button_count"></div></li>
+			<li><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></li>
+		</ul>
+	</div>
+  </div>
+
+	<div class="xwing3d" id="verold3d" name="3d">
+
+			<div id="load-scene" class="load-scene">
+			  <div class="load-progress">
+			  	<div class="spinner">
+					  <div class="rect1"></div>
+					  <div class="rect2"></div>
+					  <div class="rect3"></div>
+					  <div class="rect4"></div>
+					  <div class="rect5"></div>
+					</div>
+			    <div id="load-text" class="load-text">LOADING 3D</div>
+			  </div>
+			</div><!-- /load-scene -->
+			
+			<div class="fallback-wrapper">
+				<div class="fallback">
+					<h3>Ooops! Your browser doesn't support 3D (WebGL)</h3>
+					<h4>Try the latest version of Chrome or Firefox to discover how <span class="bb8">BB-8</span> fits in the T-70 X-wing fighter.</h4>
+				</div>
+			</div>
+				
+	</div><!-- xwing3d -->
+  
+
+
+
+
+
+
+  <script src="//commondatastorage.googleapis.com/assets.verold.com/runtime/verold.loader.js"></script>
+  
+  <!-- T-70 X-wing Fighter -->
+  <!--<script> verold.load('body', '//commondatastorage.googleapis.com/s.vrld.co/p/5608350db79e844d0dc8fbe1/3/application.json');</script>-->
+  <script>verold.load('body', 'https://vrld.co/NRP3g0.json');</script><!-- points to the latest build -->
+
+  <script>
+
+  	$(function(){
+
+  		if(!verold.supportsWebGL()){
+	      $("#load-scene").hide();
+	      $(".fallback-wrapper").show();
+	    }
+
+  	});
+
+  </script>
+
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=578258009022221";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+</body>
+</html>
+
+
+<!-- /nonessential stylesheets -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500|Righteous|Bitter' rel='stylesheet' type='text/css'>
+<link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>

@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>How Does BB-8 Work?</title>
+
+<meta name="description" content="BB-8, the droid from Star Wars Episode VII, is a real prop. Here is how it works.">
+<meta name="author" content="Carlos Sánchez">
+<meta name="keywords" content="bb-8 bb8 how works star wars episode VII the force awakens droid astromech sphero 3d webgl verold box"/>
+
+<!-- Mobile viewport optimization h5bp.com/ad -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- allows zoom -->
+
+
+<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="icon.png"/>
+<link rel="icon" href="icon.png"/>
+
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+
+<!-- For Facebook -->
+<meta property="og:title" content="How Does BB-8 Work?"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://www.howbb8works.com/img/howbb8works.png"/>
+<meta property="og:url" content="http://www.howbb8works.com"/>
+<meta property="og:site_name" content="How Does BB-8 Work?"/>
+<meta property="og:description" content="We have used really cool web technology to demonstrate how BB-8 works."/>
+<meta property="fb:app_id" content="437218729793191"/>
+
+<!-- for Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@chocotuits">
+<meta name="twitter:title" content="How Does BB-8 Work?" />
+<meta name="twitter:description" content="We have used really cool web technology to demonstrate how BB-8 works." />
+<meta name="twitter:image" content="http://www.howbb8works.com/img/howbb8works.png" />
+
+<!-- For Google+ -->
+<!-- <html itemscope itemtype="http://schema.org/Article"> -->
+<meta itemprop="name" content="How Does BB-8 Work?">
+<meta itemprop="description" content="We have used really cool web technology to demonstrate how BB-8 works.">
+<meta itemprop="image" content="http://www.howbb8works.com/img/howbb8works.png">
+
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- jQuery 2.x does not support Internet Explorer 6, 7, or 8 -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/ui-min.js" async></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10359362-19', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+<body>
+
+
+  <section id="country-banner-es" class="country-banner">
+
+    <div class="content-wrapper">
+
+      <p>
+        <img class="country-flag" src="img/es.svg" alt="Español">Versión en español disponible <a rel="alternate" hreflang="es" href="es/index.html">aquí</a>.
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="country-banner-fr" class="country-banner">
+
+    <div class="content-wrapper">
+
+      <p>
+        <img class="country-flag" src="img/fr.svg" alt="Français">Version en français disponible <a rel="alternate" hreflang="fr" href="fr/index.html">ici</a>.
+      </p>
+
+    </div>
+
+  </section>
+
+
+	<header id="header" class="header" name="header">
+		<div class="content-wrapper">
+			<h1>How Does <span class="bb8">BB-8</span> Work?</h1>
+		</div>
+
+	</header>
+
+	<nav id="nav" class="nav">
+		<div class="content-wrapper">
+			<ul>
+				<li><a href="#introducing">Introducing <span class="bb8">BB-8</span></a></li>
+				<li><a href="#concept">Concept</a></li>
+				<li><a href="#technology">Technology</a></li>
+				<li><a href="#patent">Patent</a></li>
+				<li><a href="#3d">3D</a></li>
+				<li><a href="#more">More</a></li>
+				<!-- <li><a href="#update">Update</a></li> -->
+				<li id="go-up" class="go-up"><a href="#header"><i class="ion-android-arrow-up"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section id="first-segment" class="segment" name="introducing">
+		<div class="content-wrapper">
+			<div class="one-third float-left side-img-wrapper wireframe-wrapper">
+				<img src="img/bb8-wireframe.png" alt="BB-8 Wireframe">
+			</div>
+			<div class="two-thirds float-right">
+				<h2>Introducing <span class="bb8">BB-8</span></h2>
+				<p>BB-8 is an astromech droid that appears on Star Wars Episode VII - The Force Awakens. It has a ball shaped body and a domed head that resembles that of the R2 series droids, whose most popular unit is <span class="bb8">R2-D2</span>. <span class="bb8">BB-8's</span> body rolls independently from the head, which always stays near the vertical axis of the droid.</p>
+
+				<p>Like the R2 series, <span class="bb8">BB-8</span> also fits in the droid socket of an X-Wing starfighter. Specifically the T-70 x-Wing fighter model used by the Resistance thirty years after the Battle of Endor. Despite what most people thought before the movie was released, BB-8 is owned by <span class="spoiler-trigger">click to reveal spoiler</span><span class="spoiler">Resistance's pilot Poe Dameron</span>.</p>
+				</div>
+		</div>
+	</section>
+
+
+	<section id="ralph-quote" class="segment quote-container jj-quote">
+
+		<div class="content-wrapper">
+
+			<p>
+				<span class="quote">"There were a lot of discussions about how having a CG <span class="bb8">BB-8</span> would be so much easier, but we also knew it would be better for the film, for the actors, for the sets, for the look of it, if it were performed"</span>
+				<span class="float-right">-J.J. Abrams</span>
+			</p>
+
+		</div>
+
+	</section>
+
+
+	<section  id="concept" class="segment grey" name="concept">
+		<div class="content-wrapper">
+			<div class="two-thirds float-left">
+				<h2>Concept</h2>
+				<p>Director J.J. Abrams went old school during production of The Force Awakens. The original trilogy, which mainly used real sets and props, had a special vibe that was missing in the prequel trilogy. Abrams wanted Episode VII to feel organic and tactile, closer in spirit to the original movies. To achieve that, they used as many practical effects as possible, and <span class="bb8">BB-8</span> was no exception.</p>
+
+				<p>The first known sketch of <span class="bb8">BB-8</span> was revealed during Star Wars Celebration 2015. It certainly wasn't a Ralph McQuarrie illustration, but the concept might be his. In an interview with Star Wars Insider, the artist responsible for the original trilogy concept art, said that he originally envisioned R2-D2 as a rolling droid. According to Episode VII producer Kathleen Kennedy, the film crew looked a lot at early concept art by McQuarrie during pre-production and some unused concepts have made it to The Force Awakens.</p>
+
+				<p>The idea of a rolling robot was cool but complex. How do you bring alive a droid like that? CGI would have been the logical choice, but J.J. wanted a real prop. The Pinewood Studios' Creature Shop took on the challenge and eventually succeeded at building and puppeteering BB-8 in the film.</p>
+			</div>
+			<div class="one-third float-right side-img-wrapper">
+				<img class="sketch-img hidden-right" src="img/bb8-sketch.png" alt="BB-8 Sketch">
+			</div>
+		</div>
+	</section>
+
+
+	<section id="ralph-quote" class="segment quote-container ralph-quote">
+
+		<div class="content-wrapper">
+
+			<p>
+				<span class="quote">"I think Artoo was just described as a small robot. I thought of him as running on a giant ball bearing - just a sphere, a circle, wheel-like. He had gyros so he could go in any direction on this ball."</span>
+				<span class="float-right">-Ralph McQuarrie</span>
+			</p>
+
+		</div>
+
+	</section>
+
+
+	<section  class="segment technology" name="technology">
+		<div class="content-wrapper">
+			<div class="two-thirds float-left">
+				<h2>Technology</h2>
+				<p>So, how does BB-8 work? What kind of black magic powers it? Well, what we know for sure is that it's not driven by a hamster as some theories suggest. The closest thing out there is the <a href="http://www.amazon.com/gp/product/B0107H5FJ6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0107H5FJ6&linkCode=as2&tag=hobbwo-20&linkId=4JJA7NMIVCKK24WN" target="_blank">Sphero ball</a>, and turns out that Sphero was one of ten start-ups funded by Disney's first accelerator program in 2014. Disney CEO Bob Iger himself was Sphero's mentor inside the company. When he learnt about the filmmakers trying to build a rolling droid, he knew the right people for the job.</p>
+				<p><span class="bb8">BB-8</span> and the Sphero are likely to share a very similar internal mechanism. The RC robotic ball uses a gyroscope to determine which way is down and two wheels to move the sphere from inside. The base plate (batteries included) serves as a counterweight to keep the wheels acting against the lower half of the sphere. There's also a vertical bearing that helps to keep the wheels in contact with the walls.</p>
+				<p>But what about the floating head? Because that's actually the jaw-dropping part. There is a patent by Disney's Imagineering R&amp;D group that sheds some light on the head mechanism. Surprisingly, the patent was filed in 2010, two years before Disney acquired Lucasfilm and four years before they invested in Sphero. Looks like they were into rolling droids before anyone suspected.</p>
+        <p class="correction">Note: According to the latest updates from Lucasfilm, Sphero's technology wasn't useful to achieve the expressiveness that the character demanded. Therefore the Creature FX engineers had to develop their own mechanism to make BB-8 behave the way Abrams wanted.</p>
+      </div>
+			<div class="one-third float-right side-img-wrapper">
+				<img class="sphero-img hidden-right" src="img/how-sphero-works.svg" onerror="this.src='img/how-sphero-works.png'; this.onerror=null;" alt="Sphero ball">
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="patent" class="segment blueprints" name="patent">
+
+		<div class="content-wrapper">
+			<div class="two-thirds float-right">
+				<h2>Patent</h2>
+				<h3>Magnetic spherical balancing robot drive</h3>
+				<h4><a href="https://www.google.com/patents/US8269447" target="_blank">US 8269447 B2</a></h4>
+				<h4>Inventors:	Lanny Smoot , Dirk Ruiken</h4>
+				<h4>Original Assignee:	Disney Enterprises, Inc.</h4>
+				<h3>TL;DR</h3>
+				<p>The first thing we have learnt from this patent is that there is a concept in robotics called holonomic motion. Ground-based holonomic robots are those who can instantaneously move in any direction on the horizontal plane. That makes them incredibly responsive. Both the Sphero and our little guy <span class="bb8">BB-8</span> are holonomic robots.</p>
+
+				<p>The patent presents several variants of the invention, but one of them is suspiciously similar to <span class="bb8">BB-8</span>. According to this configuration, the body contains a drive system that always keeps a relative position with respect to the sphere. The system uses omni wheels to make the sphere roll in any direction. Each of those wheels is connected to a motor. The robot uses sensors (gyroscopes and accelerometers) to determine its position and dynamics. The drive system can be maneuvered using a remote controller. The base plate acts as a counterweight, keeping the center of gravity close to the ground. That keeps the wheels' traction on the inner shell of the body. So far pretty similar to the Sphero.</p>
+
+				<p>The main difference we find with the Sphero is the dynamic mast described by the patent. There is also a control system that keeps everything in balance, making sure the mast is always in vertical position. This, if you think about it, makes the whole mechanism behave like a miniature Segway. The arm can rotate and, according to the patent, magnetically interact with an external element. That means <span class="bb8">BB-8's</span> head is most likely controlled via magnetic interaction. Magnets at the end of the mast and roller magnets at the base of the head.</p>
+
+				<p>Now let's use some 3D to show how the inner mechanism of the cutest astromech in the galaxy might look like.</p>
+			</div>
+			<div class="one-third float-left">
+				<img class="patent-img hidden-left" src="img/bb8-patent.png" alt="blueprint">
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+
+	<div class="segment3d" id="verold3d" name="3d">
+
+		<div class="stripe">
+
+			<div id="load-scene" class="load-scene">
+			  <div class="load-progress">
+			  	<div class="spinner">
+					  <div class="rect1"></div>
+					  <div class="rect2"></div>
+					  <div class="rect3"></div>
+					  <div class="rect4"></div>
+					  <div class="rect5"></div>
+					</div>
+			    <div id="load-text" class="load-text">LOADING 3D</div>
+			  </div>
+			</div><!-- /load-scene -->
+
+			<div class="float-left aside3d">
+
+				<div class="switch-wrapper controls3d">
+
+					<div id="switch" class="switch">
+						<input type="radio" name="switch" id="switch-off" onclick="VAPI.globalEvents.trigger('transparent')">
+						<input type="radio" name="switch" id="switch-on" checked onclick="VAPI.globalEvents.trigger('solid')">
+						<span class="toggle"></span>
+					</div> <!-- /switch -->
+					<div id="switch-caption" class="switch-caption">Switch to View inside <span class="bb8">BB-8</span></div>
+
+				</div>
+
+			</div>
+
+
+			<div class="float-right aside3d">
+
+				<ul id="mech-btns" class="mech-btns">
+					<li><button id="mech-btn1" class="selected" onclick="VAPI.globalEvents.trigger('mechanism1')">Mechanism I</button></li>
+					<li><button id="mech-btn2" onclick="VAPI.globalEvents.trigger('mechanism2')">Mechanism II</button></li>
+				</ul>
+
+			</div>
+
+			<div class="fallback-wrapper">
+				<div class="fallback">
+					<h3>Ooops! Your browser doesn't support 3D (WebGL)</h3>
+					<h4>Try the latest version of Chrome or Firefox to discover the inner mechanism of <span class="bb8">BB-8</span> in 3D</h4>
+				</div>
+			</div>
+
+		</div><!-- /stripe -->
+
+		<div id="caption3d" class="caption3d">
+			<p id="caption-mech1">This is our best guess based on how <span class="bb8">BB-8</span> behaves on screen. Instead of the vertical mast described on the patent, this mechanism uses a stool type set-up (based on the <span class="bb8">AT-AT</span> foot mechanics) which allows to freely move a magnet around the upper part of the sphere. We think that the drive system probably uses four omni wheels with ball bearings. Such configuration would allow to rotate the sphere in any direction. <span class="desktop-only">You can drag the model to see different angles of the mechanism.</span></p>
+
+			<p id="caption-mech2">This solution represents the most spread theory on the internet. The first one to sketch it out was <a href="http://jalopnik.com/the-new-star-wars-droid-is-not-cgi-so-how-does-it-wor-1698461524##kxsegs=o7mp4e3md,o9i68fk9g,pexi6me2k" target="_blank">Jason Torchinsky</a>. It is the theory that better matches the information from the patent. The motorized arm has a spherical joint that allows it to flex in any direction. The head rotation motor is probably attached to the end of the mast. The head itself is probably very light and has magnetic rollers attached to the base. That would allow it to smoothly roll over the spheric body.</p>
+		</div>
+
+	</div>
+
+
+
+	<section class="segment iknow">
+		<div class="content-wrapper">
+			<p>
+				If you see any mistakes here, let us know:
+				<a href="mailto:iknow@howbb8works.com">iknow@howbb8works.com</a>
+				<span>Because let's face it. If the Death Star plans were leaked, so will BB-8 plans.</span>
+			</p>
+		</div>
+	</section>
+
+
+
+	<section class="segment" name="more">
+
+		<a class="banner" id="amazon-us" rel="nofollow" href="http://www.amazon.com/gp/product/B0107H5FJ6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0107H5FJ6&linkCode=as2&tag=hobbwo-20&linkId=4JJA7NMIVCKK24WN" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Remote Control BB-8</h3>
+				<button>Buy now from amazon.com</button>
+			</div>
+		</a>
+
+    <a class="banner hidden" id="amazon-es" rel="nofollow" href="http://www.amazon.es/gp/product/B01427MW3O/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B01427MW3O&linkCode=as2&tag=cofubb-21" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>BB-8 por Control Remoto</h3>
+				<button>Ver en amazon.es</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-ca" rel="nofollow" href="http://www.amazon.ca/gp/product/B0107H5FJ6/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=B0107H5FJ6&linkCode=as2&tag=hobbwo03-20" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Remote Control BB-8</h3>
+				<button>Buy now from amazon.ca</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-uk" rel="nofollow" href="http://www.amazon.co.uk/gp/product/B01427MW3O/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01427MW3O&linkCode=as2&tag=hobbwo-21" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Remote Control BB-8</h3>
+				<button>Buy now from amazon.co.uk</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-de" rel="nofollow" href="http://www.amazon.de/gp/product/B01427MW3O/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B01427MW3O&linkCode=as2&tag=hobbwo06-21" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Sphero BB-8</h3>
+				<button>Kaufen bei amazon.de</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-jp" rel="nofollow" href="http://www.amazon.co.jp/gp/product/B01427MW3O/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B01427MW3O&linkCode=as2&tag=hobbwo-22" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>スター・ウォーズ エピソード7 BB-8</h3>
+				<button>amazon.co.jp</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-fr" rel="nofollow" href="http://www.amazon.fr/gp/product/B01427MW3O/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B01427MW3O&linkCode=as2&tag=hobbwo0e-21" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Sphero BB-8</h3>
+				<button>Acheter sur amazon.fr</button>
+			</div>
+		</a>
+
+    <a class="banner" id="amazon-it" rel="nofollow" href="http://www.amazon.it/gp/product/B01427MW3O/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=3370&creative=23322&creativeASIN=B01427MW3O&linkCode=as2&tag=hobbwo09-21" target="_blank">
+			<img src="img/sphero-bb8.png" alt="Sphero BB-8">
+			<div class="cta-wrapper">
+				<h3>Sphero BB-8</h3>
+				<button>Compra su amazon.it</button>
+			</div>
+		</a>
+
+
+
+	</section>
+
+
+
+	<section class="segment featuredon">
+		<div class="content-wrapper">
+			<h2>This site has been featured on</h2>
+			<ul class="featured-list">
+				<li>
+					<a href="http://www.polygon.com/2015/5/26/8659743/this-is-how-star-wars-droid-bb-8-may-work-based-on-the-patent" target="_blank"><img src="img/featuredon-polygon.svg" alt="Featured on Polygon"></a>
+				</li>
+				<li>
+					<a href="https://www.yahoo.com/movies/how-two-star-wars-fans-unearthed-the-secrets-of-120459473357.html" target="_blank"><img src="img/featuredon-yahoomovies.svg" alt="Featured on "></a>
+				</li>
+				<li>
+					<a href="http://thenextweb.com/media/2015/09/03/bb-gr8/" target="_blank"><img src="img/featuredon-thenextweb.svg" alt="Featured on The Next Web"></a>
+				</li>
+
+				<li>
+					<a href="http://time.com/4021837/star-wars-bb8-how/" target="_blank"><img src="img/featuredon-time.svg" alt="Featured on Time Magazine"></a>
+				</li>
+        <li>
+					<a href="http://www.forbes.com/sites/jvchamary/2015/12/30/how-bb8-works-star-wars/?utm_campaign=ForbesGames&utm_source=TWITTER&utm_medium=social&linkId=20002565" target="_blank"><img src="img/featuredon-forbes.svg" alt="Featured on Forbes"></a>
+				</li>
+        <li>
+					<a href="https://pbs.twimg.com/media/CWhAcY3UAAQR6mU.jpg:large" target="_blank"><img src="img/featuredon-bbcfocus.svg" alt="Featured on BBC Focus"></a>
+				</li>
+				<li>
+					<a href="http://www.popsci.com/star-wars-fans-figure-out-force-awakens-new-robot" target="_blank"><img src="img/featuredon-popsci.svg" alt="Featured on Popular Science"></a>
+				</li>
+				<li>
+					<a href="http://www.foxnews.com/tech/2015/09/04/how-it-works-inside-bb-8-star-wars-drone-thats-blowing-everyones-mind/" target="_blank"><img src="img/featuredon-foxnews.svg" alt="Featured on Fox News"></a>
+				</li>
+
+				<li>
+					<a href="http://www.popularmechanics.com/culture/movies/a15134/how-bb-8-star-wars-droid-works/" target="_blank"><img src="img/featuredon-popularmechanics.svg" alt="Featured on Popular Mechanics"></a>
+				</li>
+
+				<li>
+					<a href="http://www.dailymail.co.uk/sciencetech/article-3101460/Has-mystery-Star-Wars-BB8-droid-solved.html" target="_blank"><img src="img/featuredon-dailymail.svg" alt="Featured on Daily Mail"></a>
+				</li>
+
+				<li>
+					<a href="https://twitter.com/chocotuits/status/628434315823575040" target="_blank"><img src="img/featuredon-net.svg" alt="Featured on Net Magazine"></a>
+				</li>
+        <li>
+					<a href="http://www.cgsociety.org/news/article/215/how-does-bb-8-work-" target="_blank"><img src="img/featuredon-cgsociety.svg" alt="Featured on CGSociety"></a>
+				</li>
+        <!-- <li>
+					<a href="http://es.engadget.com/2015/05/27/secreto-bb-8-desvelado-patente/" target="_blank"><img src="img/featuredon-engadget.svg" alt="Featured on Engadget"></a>
+				</li> -->
+
+			</ul>
+		</div>
+	</section>
+
+
+
+
+
+	<!-- <section class="segment xwing">
+		<div class="content-wrapper">
+		<a href="xwing/index.html" target="_blank">
+			<img src="img/xwing.png" alt="X-Wing">
+			<p>
+				Find out how <span class="bb8">BB-8</span> fits in the T-70 X-wing fighter
+			</p>
+		</a>
+		</div>
+	</section> -->
+
+
+	<section class="segment authors">
+		<div class="content-wrapper">
+			<h2>The Authors</h2>
+						<div class="author-card float-left">
+				<div class="avatar">
+					<img src="img/carlos-sanchez.jpg" alt="">
+				</div>
+				<div class="info-wrapper">
+					<h3>Carlos Sánchez</h3>
+					<h4>Designer &amp; Front-end Developer</h4>
+					<ul>
+						<li><i class="ion-ios-world-outline"></i><a href="http://carloscv.com" target="_blank">carloscv.com</a></li>
+						<li><i class="ion-ios-email"></i><a href="mailto:contact@carloscv.com">contact@carloscv.com</a></li>
+						<li><i class="ion-social-twitter"></i><a href="https://twitter.com/chocotuits" target="_blank">@chocotuits</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="author-card float-right">
+				<div class="avatar">
+					<img src="img/EGPJET3D.jpg" alt="">
+				</div>
+				<div class="info-wrapper">
+					<h3>Emilio Gelardo (aka EGPJET3D)</h3>
+					<h4>CG Artist</h4>
+					<ul>
+						<!-- <li><i class="ion-android-cart"></i><a href="http://www.turbosquid.com/3d-models/obj-android-star-wars/918465" target="_blank">Buy the BB-8 model on TurboSquid</a></li> -->
+						<li><i class="ion-ios-world-outline"></i><a href="https://www.flickr.com/photos/emigepa/albums/" target="_blank">Flickr</a></li>
+						<li><i class="ion-ios-email"></i><a href="mailto:emigepa@gmail.com">emigepa@gmail.com</a></li>
+						<li><i class="ion-social-twitter"></i><a href="https://twitter.com/egpjet3d" target="_blank">@egpjet3d</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<div class="social-share">
+		<img class="bb8-says" src="icon.png" alt="BB-8 head"><span>Did you enjoy this page? If so please share!</span>
+		<ul class="social-btns">
+			<li><div class="fb-share-button" data-href="http://www.howbb8works.com" data-layout="button_count"></div></li>
+			<li><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></li>
+		</ul>
+	</div>
+
+
+	<section class="segment disclaimer">
+
+		<div class="content-wrapper">
+			This site has been created by two Star Wars geeks from Spain. Inspired by the <a href="http://www.starwars.com/news/r2-d2-is-in-star-wars-episode-7-and-hes-fan-made" target="_blank">Droid Mechanics Lee Towersey and Oliver Steeples</a>, we wanted to build our own astromech and learn about it in the process. Only that we come from the software side of things. All images, names and characters are property of &copy;Disney and &copy;Lucasfilm Ltd. If you want us to remove any material or make any corrections, please <a href="mailto:contact@carloscv.com">send us an email</a>.
+		</div>
+
+	</section>
+
+
+	<footer class="credits">
+		<div class="content-wrapper">
+			<div class="credits-block">3D powered by <a href="https://www.box.com/blog/box-acquires-verold/" target="_blank">Box</a>.</div>
+			<div class="credits-block">Special thanks to: <a href="https://twitter.com/MiiBond" target="_blank">Michael Bond</a> for making materials look awesome and Thomas Cartry for translating the site into <a rel="alternate" hreflang="fr" href="fr/index.html">French</a>. Thanks also to Steve Prior, Enrico, AJ Scaff, Ryan Leverenz, Troy Stephenson, Gregg Eshelman, Shawn Steele, Matthieu Carver, Justin Marshall and Justin DeRoche for their feedback and suggestions.</div>
+			<div class="credits-block">Sources: <a href="http://starwars.wikia.com/wiki/Main_Page" target="_blank">Wookieepedia</a>, <a href="http://www.starwars7news.com/" target="_blank">Star Wars 7 News</a>, <a href="https://www.youtube.com/watch?v=aAZVNELKT4k" target="_blank">Technophiles Newscast</a>, <a href="http://www.technologyreview.com/hack/426981/rolling-rolling-rolling/" target="_blank">MIT Technology Review</a>, <a href="http://jalopnik.com/the-new-star-wars-droid-is-not-cgi-so-how-does-it-wor-1698461524##kxsegs=o7mp4e3md,o9i68fk9g,pexi6me2k" target="_blank">Jalopnik</a>, <a href="http://www.doc.ic.ac.uk/~ajd/Robotics/RoboticsResources/lecture2.pdf" target="_blank">Robot Motion</a>, <a href="http://titanmagazines.com/t/star-wars-insider/" target="_blank">Star Wars Insider</a>.</div>
+      <div class="credits-block"><a rel="alternate" hreflang="es" href="es/index.html">Versión en español</a>.</div>
+      <div class="credits-block"><a rel="alternate" hreflang="fr" href="fr/index.html">Version française</a>.</div>
+    </div>
+	</footer>
+
+
+  <!-- <script src="//commondatastorage.googleapis.com/assets.verold.com/runtime/verold.loader.js"></script> -->
+
+  <!-- V1: BB-8 -->
+  <!--<script>verold.load('body', '//commondatastorage.googleapis.com/s.vrld.co/p/555a615733a8bd4d5f3b7703/41/application.json');</script>-->
+  <!--<script>verold.load('body', 'https://vrld.co/PM33FR.json');</script>--><!-- points to the latest build -->
+
+  <!-- V2: BB-8 v2 -->
+  <!--<script>verold.load('body', '//commondatastorage.googleapis.com/s.vrld.co/p/55897d8f20ff104f0a9c848e/25/application.json');</script>-->
+  <!--<script>verold.load('body', 'https://vrld.co/_yD4xU.json');</script>--><!-- points to the latest build -->
+
+  <!-- V3: BB-8 v2 - OPTIMIZED -->
+  <!-- https://studio.verold.com/projects/558ad7fd60cdd409224e9624/edit -->
+<!-- <script>verold.load('body', '//commondatastorage.googleapis.com/s.vrld.co/p/558ad7fd60cdd409224e9625/19/application.json');</script> -->
+  <!--<script>verold.load('body', 'https://vrld.co/ZkXmCU.json');</script>--><!-- points to the latest build -->
+
+
+  <!-- POINTS TO THE LOCAL VERSION -->
+  <script src="runtime/verold.loader.js"></script>
+  <script>
+    verold.load('body', 'application.json');
+  </script>
+
+
+  <script>
+
+  	$(function(){
+
+  		if(!verold.supportsWebGL()){
+	      $("#load-scene").hide();
+	      $(".fallback-wrapper").show();
+	      $('.segment3d, .stripe, .iknow').addClass('nowebgl');
+	    }
+
+  	});
+
+  </script>
+
+
+  <script src="http://gd.geobytes.com/gd?after=-1&variables=GeobytesLocationCode,GeobytesCode,GeobytesInternet,GeobytesFqcn"></script>
+
+
+  <script>
+
+
+  $.get("http://getcitydetails.geobytes.com/GetCityDetails?callback=?", function (response) {
+    var country = response.geobytesinternet;
+    if (country == 'ES' || country == 'es'){
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-es').removeClass('hidden').addClass('visible');
+      $('#country-banner-es').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'CA' || country == 'ca') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-ca').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'GB' || country == 'gb' || country == 'UK' || country == 'uk') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-uk').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'DE' || country == 'de') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-de').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'JP' || country == 'jp') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-jp').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'FR' || country == 'fr') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-fr').removeClass('hidden').addClass('visible');
+      $('#country-banner-fr').removeClass('hidden').addClass('visible');
+    }
+    else if (country == 'IT' || country == 'it') {
+      $('#amazon-us').addClass('hidden');
+      $('#amazon-it').removeClass('hidden').addClass('visible');
+    }
+
+  }, "jsonp");
+
+
+  </script>
+
+
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=437218729793191";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+  <!-- SCRIPT CONTROL DE COOKIES -->
+  	<script type="text/javascript">
+  	function controlcookies() {
+  	    // si variable no existe se crea (primera visita)
+  	    localStorage.controlcookie = (localStorage.controlcookie || 0);
+
+  	    localStorage.controlcookie++; // incrementamos cuenta de visitas
+  	    cookie1.style.display='none'; // Esconde la política de cookies
+  	}
+  	</script>
+
+    <div class="cookiesms" id="cookie1">
+    	This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a href="es/politica-cookies.html" target="_blank">Read cookies policy.</a> <button class="accept-cookies" onclick="controlcookies()">OK</button>
+    	<div  class="cookies2">Cookies policy &darr;</div>
+    </div>
+
+    <script type="text/javascript">
+
+    	if (!localStorage.controlcookie>0){
+    	cookie1.setAttribute("style","animation: desaparecer 5s;-webkit-animation: desaparecer 5s;");
+    	}
+
+    </script>
+
+
+</body>
+</html>
+
+<!-- /nonessential stylesheets -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500|Righteous|Bitter' rel='stylesheet' type='text/css'>
+<link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="styles/cookies.css">

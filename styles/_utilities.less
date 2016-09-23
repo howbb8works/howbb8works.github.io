@@ -1,0 +1,59 @@
+
+
+.clearfix {
+  *zoom: 1; /* IE 6/7 support */
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+.bb8{
+  white-space: nowrap;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+
+.spoiler-trigger{
+  display: inline-block;
+  background: @yellow;
+  padding: 0 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  &:hover{
+    background: @orange;
+  }
+}
+
+.spoiler{
+  display: none;
+}
+
+.quote{
+  display: block;
+  font-family: @serif-font;
+}
+
+.invisible{
+  opacity: 0;
+}
+
+
+@media screen and (max-width: 700px){
+  .desktop-only{
+    display: none;
+  }
+}

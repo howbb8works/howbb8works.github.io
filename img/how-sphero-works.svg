@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="808px" height="808px" viewBox="0 0 808 808" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>sphero 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="151" y="523" width="68" height="206" rx="40"></rect>
+        <rect id="path-2" x="589" y="523" width="68" height="206" rx="40"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Sphero-ball" sketch:type="MSLayerGroup">
+            <g id="spring" transform="translate(334.000000, 32.000000)" fill="#F0F0F0" sketch:type="MSShapeGroup">
+                <g id="Group">
+                    <g id="Rectangle-11-+-Rectangle-13" transform="translate(0.000000, 105.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-14" transform="translate(0.000000, 70.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-15" transform="translate(0.000000, 35.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-16">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 140.000000)">
+                    <g id="Rectangle-11-+-Rectangle-13" transform="translate(0.000000, 105.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-14" transform="translate(0.000000, 70.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-15" transform="translate(0.000000, 35.000000)">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                    <g id="Rectangle-11-+-Rectangle-16">
+                        <rect id="Rectangle-11" x="0" y="36" width="140" height="14" rx="40"></rect>
+                        <rect id="Rectangle-13" transform="translate(70.000000, 25.121186) rotate(-15.000000) translate(-70.000000, -25.121186) " x="0" y="18.1211861" width="140" height="14" rx="40"></rect>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-4" fill="#F0F0F0" sketch:type="MSShapeGroup" x="129" y="617" width="552" height="19"></rect>
+            <rect id="Rectangle-5" fill="#F0F0F0" sketch:type="MSShapeGroup" x="241" y="508" width="327" height="188"></rect>
+            <rect id="Rectangle-6" fill="#F0F0F0" sketch:type="MSShapeGroup" x="41" y="343" width="728" height="165"></rect>
+            <rect id="Rectangle-1" fill="#F0F0F0" sketch:type="MSShapeGroup" x="16" y="310" width="776" height="33" rx="8"></rect>
+            <g id="Rectangle-2">
+                <use fill="#F0F0F0" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use fill="none" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#F0F0F0" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use fill="none" xlink:href="#path-2"></use>
+            </g>
+            <rect id="Rectangle-7" fill="#F0F0F0" sketch:type="MSShapeGroup" x="103" y="474" width="26" height="175" rx="40"></rect>
+            <rect id="Rectangle-8" fill="#F0F0F0" sketch:type="MSShapeGroup" x="681" y="474" width="26" height="175" rx="40"></rect>
+            <path d="M346.573929,281.161938 C366.765606,281.161938 386.958738,281.020015 407.148959,281.194325 C439.144912,281.470893 467.092125,292.357849 490.642472,314.07208 C508.047686,330.119941 519.718458,349.728979 525.859228,372.61171 C529.191707,385.030343 530.429974,397.675689 529.78283,410.499349 C528.906149,427.866731 524.591496,444.351278 516.647528,459.825624 C504.702838,483.091911 487.133201,500.857041 464.035381,513.115192 C452.390072,519.295396 440.020138,523.375867 427.017974,525.503621 C416.764442,527.181225 406.455254,527.54513 396.099503,526.617172 C375.294513,524.752521 356.126843,518.127988 338.839128,506.42079 C313.132362,489.011923 296.188407,465.242719 288.112755,435.221985 C285.850481,426.812497 284.643499,418.233429 284.27391,409.526994 C283.375767,388.359713 287.6344,368.288515 297.024346,349.315219 C301.100368,341.079314 306.08581,333.414012 311.929381,326.316766 C314.305878,323.429905 315.979939,320.206068 316.465933,316.477494 C317.180738,310.994169 314.809697,306.864571 310.511049,303.712423 C307.496867,301.502426 304.117097,299.88705 300.886472,298.032589 C294.39212,294.304743 287.867939,290.628935 281.356854,286.930201 C280.558019,286.476047 279.774826,286.003334 279.26737,285.194009 C278.457622,283.902509 278.774464,282.568796 280.09858,281.804231 C281.105854,281.222346 282.224804,281.162666 283.35103,281.162666 C304.425572,281.161938 325.499751,281.161938 346.573929,281.161938 L346.573929,281.161938 Z M407.111128,499.780973 C460.16598,499.865399 503.799601,456.072305 502.640636,402.034911 C501.544603,350.917494 460.075401,309.443204 408.765181,308.519612 C355.235612,307.556355 310.493952,351.073609 311.454664,405.916689 C312.370996,458.249186 355.188686,499.89342 407.111128,499.780973 L407.111128,499.780973 Z" id="Shape" fill="#999999" sketch:type="MSShapeGroup"></path>
+            <path d="M372.30543,403.655382 C372.591716,394.161092 374.514958,385.724675 379.158822,378.042633 C381.320332,374.466536 383.994028,371.334038 387.427999,368.907882 C395.290846,363.352867 404.584758,363.661095 412.064194,369.722666 C417.218425,373.899935 420.638572,379.305385 422.803357,385.485225 C427.701858,399.470834 427.295165,413.306151 421.108197,426.834331 C418.897214,431.669178 415.732796,435.845355 411.428328,439.07647 C403.760459,444.833089 394.367239,444.794515 386.782674,438.932364 C381.203199,434.62045 377.741581,428.828533 375.379999,422.312808 C373.126091,416.09403 372.253412,409.639077 372.30543,403.655382 L372.30543,403.655382 Z" id="Shape" fill="#999999" sketch:type="MSShapeGroup"></path>
+            <path d="M482.858926,404.131006 C482.772713,411.398923 481.213603,418.244346 476.975704,424.296456 C474.664322,427.597805 471.755632,430.216831 467.838941,431.425725 C462.355864,433.118612 457.597413,431.558186 453.502112,427.780485 C449.324962,423.926728 446.956832,419.000541 445.692374,413.551787 C443.525043,404.210701 444.290775,395.15892 448.831329,386.591497 C450.622159,383.212636 453.053949,380.356707 456.357328,378.344675 C462.151426,374.815521 469.039739,375.744935 474.159412,380.728982 C478.468609,384.924083 480.763986,390.173417 482.018258,395.946047 C482.603197,398.637491 482.892757,401.367145 482.858926,404.131006 L482.858926,404.131006 Z" id="Shape" fill="#999999" sketch:type="MSShapeGroup"></path>
+            <g id="Rectangle-9-+-Rectangle-10" transform="translate(264.000000, 4.000000)" fill="#F0F0F0" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-9" transform="translate(81.500000, 34.000000) rotate(-9.000000) translate(-81.500000, -34.000000) " x="2" y="12" width="159" height="44" rx="40"></rect>
+                <rect id="Rectangle-10" transform="translate(198.500000, 34.000000) scale(-1, 1) rotate(-9.000000) translate(-198.500000, -34.000000) " x="119" y="12" width="159" height="44" rx="40"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

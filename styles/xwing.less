@@ -1,0 +1,63 @@
+.xwing-body{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+}
+
+.xwing3d{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.xwing-title{
+	  color: @orange;
+		font-weight: bold;
+		font-size: 2rem;
+		line-height: 1;
+		position: absolute;
+		z-index: 1;
+		top: 2%;
+		left: 2%;
+		font-family: @display-font;
+		a{
+			color: @orange;
+			&:hover{
+				color: @yellow;
+			}
+		}
+}
+
+@media screen and (max-width: 400px){
+	.xwing-title{
+		font-size: 1.5rem;
+		font-size: 7vw;
+	}
+}
+
+.xwing-caption{
+	position: absolute;
+	z-index: 1;
+	bottom: 2%;
+	right: 2%;
+	width: 96%;
+	max-width: 520px;
+	color: #fff;
+	line-height: 1.5;
+}
+
+
+.xwing-social-share{
+	float: right;
+	.fb-share-button{
+		position: relative;
+		top: -6px;
+		margin-right: 4px;
+	}
+}
+

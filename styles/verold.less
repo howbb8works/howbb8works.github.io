@@ -1,0 +1,122 @@
+.segment3d{
+  position: relative; /* containing block */
+  top: -50px;
+  padding: 0;
+  width: 100%;
+  height: 800px;
+}
+
+
+.segment3d.nowebgl{
+  height: 300px;
+  top: 80px;
+  pointer-events: none;
+}
+
+
+canvas{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.segment3d.mobile canvas{
+  pointer-events:none; 
+  width: 800px;  /* HACK: setting a fixed width solves iOS overflow issue before changing orientation */
+}
+
+@media screen and(max-width: 700px){
+  .segment3d{
+    height: 600px;
+    height: 120vw;
+    
+  }
+  canvas{
+    pointer-events:none;
+  }
+}
+
+
+.load-scene {
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height:100%;
+  width:100%;
+  text-align:center;
+}
+
+.load-progress{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+      -ms-transform: translate(0,-50%);
+          transform: translate(0,-50%);
+  color: #fff;
+
+}
+
+
+.load-text{
+  letter-spacing: 1px;
+}
+
+
+.spinner {
+  margin: 0 auto 20px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

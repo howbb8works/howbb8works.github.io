@@ -1,0 +1,65 @@
+{
+  "jsonVersion": "0.1",
+  "config": {
+    "runtimeVersion": "0.7.8",
+    "apiBaseUrl": "",
+    "assetsBaseUrl": "",
+    "staticBaseUrl": "",
+    "glAssetsBaseUrl": "production/assets",
+    "development": false
+  },
+  "project": {
+    "id": "558ad7fd60cdd409224e9624",
+    "userId": "5154979cb69bd90200000105",
+    "featured": false,
+    "privacy": "draft",
+    "forkable": false,
+    "published": true,
+    "hasModel": true,
+    "title": "BB-8 v2 - OPTIMIZED",
+    "version": 0.2,
+    "description": "3D model used on howbb8works.com. Created by EGPJET3D.",
+    "customAttribution": "",
+    "tags": [],
+    "dateCreated": "2015-06-24T16:17:01.709Z",
+    "previewImageUrl": "/media/558ad7fd60cdd409224e9624/8853d98ee6a69a31086f751a26d963b2/250x250.jpg",
+    "largeImageUrl": "/media/558ad7fd60cdd409224e9624/8853d98ee6a69a31086f751a26d963b2/600x400.jpg",
+    "originalImageUrl": "/media/558ad7fd60cdd409224e9624/8853d98ee6a69a31086f751a26d963b2/original",
+    "collaborators": [],
+    "renderSettings": {},
+    "media": [],
+    "entityId": "558ad7fe60cdd409224e9640",
+    "startupApplicationId": "558ad7fe60cdd409224e9626",
+    "counts": {
+      "views": 0,
+      "forks": 0
+    },
+    "domains": [],
+    "externalResources": [],
+    "allowApi": true,
+    "runnable": true,
+    "forkedId": "55897d8f20ff104f0a9c848d",
+    "attributes": {}
+  },
+  "application": {
+    "id": "558ad7fd60cdd409224e9625",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "shortId": "ZkXmCU",
+    "settings": {
+      "engineOptions": {
+        "componentSettings": {
+          "enabled": true,
+          "runtime": true,
+          "editor": false,
+          "persistent": true,
+          "nonPersistent": true
+        }
+      },
+      "runtimeVersion": "0.7.8"
+    }
+  },
+  "resources": {
+    "baseUrl": "",
+    "entities": "resources/entities.json"
+  }
+}

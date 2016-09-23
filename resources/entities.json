@@ -1,0 +1,4719 @@
+[
+  {
+    "id": "558ad7fe60cdd409224e9655",
+    "prefabObjectId": "558ad7fe60cdd409224e9637",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9637",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARCO",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e",
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9656": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9656",
+    "prefabObjectId": "558ad7fe60cdd409224e9638",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9638",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9655",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "MOTORIMAN",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 0.9999999999999998,
+        "y": 0.9999999999999998,
+        "x": 0.9999999999999999
+      },
+      "orientation": {
+        "w": 1,
+        "z": 3.8857805861880627e-16,
+        "y": -9.33751151506812e-16,
+        "x": 1.5446163893793551e-15
+      },
+      "position": {
+        "z": 0.002013206481934,
+        "y": 8.499961000000007e-9,
+        "x": -1.5326908499999998e-7
+      },
+      "material": "558ad7fe60cdd409224e9678",
+      "boundingbox": {
+        "max": {
+          "z": 3.287068,
+          "y": 0.963623,
+          "x": 0.963623
+        },
+        "min": {
+          "z": 2.6962439999999996,
+          "y": -0.963623,
+          "x": -0.963624
+        }
+      },
+      "vertexCount": 12957,
+      "faceCount": 7336,
+      "geometryName": "73",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9657": true,
+      "558ad7fe60cdd409224e9658": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e964b",
+    "prefabObjectId": "558ad7fe60cdd409224e962d",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962d",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964a",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e965a",
+    "prefabObjectId": "558ad7fe60cdd409224e963c",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963c",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASEMECH2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9658",
+    "prefabObjectId": "558ad7fe60cdd409224e963a",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963a",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9656",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARM",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e",
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9648",
+    "prefabObjectId": "558ad7fe60cdd409224e962a",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962a",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASE",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e964a",
+    "prefabObjectId": "558ad7fe60cdd409224e962c",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962c",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMR",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 0.9999999999999999,
+        "x": 0.9999999999999999
+      },
+      "orientation": {
+        "w": 0.6903455282136407,
+        "z": 0.15304591361885328,
+        "y": -0.15304590086594172,
+        "x": -0.6903455310408928
+      },
+      "position": {
+        "z": 1.1397773399999999e-7,
+        "y": -1.2264293432235718,
+        "x": -2.4086089134216304
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e964b": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9649",
+    "prefabObjectId": "558ad7fe60cdd409224e962b",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962b",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9653",
+    "prefabObjectId": "558ad7fe60cdd409224e9635",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9635",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMLL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9654": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9654",
+    "prefabObjectId": "558ad7fe60cdd409224e9636",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9636",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9653",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1.0000000652668752,
+        "y": 0.9999999999999998,
+        "x": 1.0000000652668752
+      },
+      "orientation": {
+        "w": 0.9762960647609598,
+        "z": 1.4640408282751966e-7,
+        "y": -0.21643935393468672,
+        "x": 7.177900630467762e-7
+      },
+      "position": {
+        "z": 0.00048002414405368116,
+        "y": -0.00011009350419044492,
+        "x": 0.002891285344958306
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "boundingbox": {
+        "max": {
+          "z": 0.587898,
+          "y": 0.14876400000000004,
+          "x": 0.5885949999999999
+        },
+        "min": {
+          "z": -0.587924,
+          "y": -0.14897000000000002,
+          "x": -0.588622
+        }
+      },
+      "vertexCount": 18706,
+      "faceCount": 9424,
+      "geometryName": "67",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9698",
+    "parentAssetId": "558ad7fe60cdd409224e9698",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "material",
+    "name": "fus_trans_mat",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "parentFolderId": "558ad7fe60cdd409224e965c",
+    "folder": "23e45b4c862b9b10bf278d11e59878d9",
+    "payload": {
+      "colorOpacity": 0.2,
+      "visible": true,
+      "diffuseTexture": "558ad7fe60cdd409224e9679",
+      "emissiveColor": 0,
+      "diffuseColor": 16380658,
+      "materialType": "Standard",
+      "Features": {
+        "Emissive": {
+          "SubFeatures": {
+            "Emissive Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Reflections": {
+          "enabled": false
+        },
+        "Displacement": {
+          "SubFeatures": {
+            "Displacement Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Normal Map": {
+          "SubFeatures": {
+            "Parallax": {
+              "enabled": false
+            }
+          },
+          "enabled": true
+        },
+        "Rim Lighting": {
+          "enabled": false
+        },
+        "Specular": {
+          "SubFeatures": {
+            "Specular Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Diffuse Color": {
+          "SubFeatures": {
+            "AO Texture": {
+              "enabled": false
+            },
+            "Diffuse Texture": {
+              "defines": {
+                "ALPHA_BLENDMODE": 1
+              },
+              "enabled": true
+            }
+          },
+          "enabled": true
+        },
+        "Lighting": {
+          "enabled": true
+        }
+      },
+      "diffuseUVChannel": 0,
+      "alphaBlendMode": 1
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387"
+    ],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9696",
+    "parentAssetId": "558ad7fe60cdd409224e9696",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "material",
+    "name": "invisible_mat",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "parentFolderId": "558ad7fe60cdd409224e965c",
+    "payload": {
+      "colorOpacity": 0,
+      "diffuseColor": 16777215,
+      "Features": {
+        "Emissive": {
+          "SubFeatures": {
+            "Emissive Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Reflections": {
+          "enabled": false
+        },
+        "Displacement": {
+          "SubFeatures": {
+            "Displacement Texture": {
+              "enabled": true
+            }
+          },
+          "enabled": false
+        },
+        "Normal Map": {
+          "SubFeatures": {
+            "Parallax": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Rim Lighting": {
+          "enabled": false
+        },
+        "Specular": {
+          "SubFeatures": {
+            "Specular Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Diffuse Color": {
+          "SubFeatures": {
+            "AO Texture": {
+              "enabled": false
+            },
+            "Diffuse Texture": {
+              "enabled": true
+            }
+          },
+          "enabled": true
+        },
+        "Lighting": {
+          "enabled": true
+        }
+      },
+      "visible": true,
+      "materialType": "Standard"
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9694",
+    "parentAssetId": "558ad7fe60cdd409224e9694",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "packageId": "555b3e6133a8bd4d5f3b8375",
+    "type": "material",
+    "name": "fus_met_mat",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "5550df1b167d61e372b7850f",
+    "parentFolderId": "558ad7fe60cdd409224e965c",
+    "folder": "ed2dce9c69ae28c3070fef9731950ad5",
+    "payload": {
+      "specularIntensity": 0.4,
+      "gloss": 0.92,
+      "visible": true,
+      "Features": {
+        "Emissive": {
+          "SubFeatures": {
+            "Emissive Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Reflections": {
+          "enabled": false
+        },
+        "Displacement": {
+          "SubFeatures": {
+            "Displacement Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Normal Map": {
+          "SubFeatures": {
+            "Parallax": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "Rim Lighting": {
+          "enabled": false
+        },
+        "Specular": {
+          "SubFeatures": {
+            "Specular Texture": {
+              "enabled": false
+            }
+          },
+          "enabled": true
+        },
+        "Diffuse Color": {
+          "SubFeatures": {
+            "AO Texture": {
+              "enabled": false
+            },
+            "Diffuse Texture": {
+              "defines": {
+                "ALPHA_BLENDMODE": 1
+              },
+              "enabled": true
+            }
+          },
+          "enabled": true
+        },
+        "Lighting": {
+          "enabled": true
+        }
+      },
+      "materialType": "Standard",
+      "diffuseColor": 16777215,
+      "emissiveColor": 0,
+      "colorOpacity": 1,
+      "diffuseTexture": "558ad7fe60cdd409224e9679",
+      "specularColor": 16580606,
+      "specularUVChannel": 0,
+      "specularTexture": "558ad7fe60cdd409224e967b",
+      "diffuseUVChannel": 0,
+      "alphaBlendMode": 1,
+      "normalUVChannel": 0,
+      "normalTexture": "558ad7fe60cdd409224e967a"
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "17078169-8855-4f5e-4fbc-66e362a9efdb"
+    ],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9679",
+    "parentAssetId": "558ad7fe60cdd409224e9679",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "texture2D",
+    "name": "BB8TS_0",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "originalWidth": 5970,
+      "originalHeight": 3668,
+      "visible": true,
+      "uMapping": "Wrap",
+      "vMapping": "Wrap",
+      "filtering": "Trilinear",
+      "anisotropy": 1,
+      "flipY": true,
+      "preferCompression": true,
+      "isNormalMap": false,
+      "generateMipmaps": true,
+      "mipmaps": []
+    },
+    "resources": [
+      {
+        "path": "5b753241-5768-4b31-864e-191d44d82149-tex.jpg",
+        "contentType": "image/jpeg",
+        "contentEncoding": "identity",
+        "contentLength": 440304,
+        "contentLengthIdentity": 440304,
+        "properties": {
+          "compression": "none",
+          "pixelFormat": "rgb",
+          "width": 2048,
+          "height": 2048
+        },
+        "_id": "55897f4b71cf847844891e2f"
+      },
+      {
+        "path": "5b753241-5768-4b31-864e-191d44d82149-tex-low.jpg",
+        "contentType": "image/jpeg",
+        "contentEncoding": "identity",
+        "contentLength": 165391,
+        "contentLengthIdentity": 165391,
+        "properties": {
+          "compression": "none",
+          "pixelFormat": "rgb",
+          "width": 1024,
+          "height": 1024
+        },
+        "_id": "55897f4b71cf847844891e2e"
+      },
+      {
+        "path": "5b753241-5768-4b31-864e-191d44d82149-tex-dxt.dds",
+        "contentType": "image/x-dds",
+        "contentEncoding": "gzip",
+        "contentLength": 898972,
+        "contentLengthIdentity": 5592552,
+        "properties": {
+          "compression": "dxt",
+          "pixelFormat": "rgb",
+          "width": 4096,
+          "height": 2048
+        },
+        "_id": "55897f4b71cf847844891e2d"
+      },
+      {
+        "path": "5b753241-5768-4b31-864e-191d44d82149-tex-dxt-low.dds",
+        "contentType": "image/x-dds",
+        "contentEncoding": "gzip",
+        "contentLength": 201176,
+        "contentLengthIdentity": 699192,
+        "properties": {
+          "compression": "dxt",
+          "pixelFormat": "rgb",
+          "width": 1024,
+          "height": 1024
+        },
+        "_id": "55897f4b71cf847844891e2c"
+      }
+    ],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9678",
+    "parentAssetId": "558ad7fe60cdd409224e9678",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "material",
+    "name": "MECH2__BB8TS.jpg",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "Features": {
+        "Lighting": {
+          "enabled": true
+        },
+        "Diffuse Color": {
+          "enabled": true,
+          "SubFeatures": {
+            "Diffuse Texture": {
+              "enabled": true
+            },
+            "AO Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Specular": {
+          "enabled": false,
+          "SubFeatures": {
+            "Specular Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Rim Lighting": {
+          "enabled": false
+        },
+        "Normal Map": {
+          "enabled": true,
+          "SubFeatures": {
+            "Parallax": {
+              "enabled": false
+            }
+          }
+        },
+        "Displacement": {
+          "enabled": false,
+          "SubFeatures": {
+            "Displacement Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Reflections": {
+          "enabled": false
+        },
+        "Emissive": {
+          "enabled": false,
+          "SubFeatures": {
+            "Emissive Texture": {
+              "enabled": false
+            }
+          }
+        }
+      },
+      "materialType": "Standard",
+      "diffuseColor": 16579836,
+      "emissiveColor": 0,
+      "colorOpacity": 1,
+      "diffuseTexture": "558ad7fe60cdd409224e9679",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9675",
+    "parentAssetId": "558ad7fe60cdd409224e9675",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "material",
+    "name": "MECH1__BB8TS.jpg",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "Features": {
+        "Lighting": {
+          "enabled": true
+        },
+        "Diffuse Color": {
+          "enabled": true,
+          "SubFeatures": {
+            "Diffuse Texture": {
+              "enabled": true
+            },
+            "AO Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Specular": {
+          "enabled": false,
+          "SubFeatures": {
+            "Specular Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Rim Lighting": {
+          "enabled": false
+        },
+        "Normal Map": {
+          "enabled": true,
+          "SubFeatures": {
+            "Parallax": {
+              "enabled": false
+            }
+          }
+        },
+        "Displacement": {
+          "enabled": false,
+          "SubFeatures": {
+            "Displacement Texture": {
+              "enabled": false
+            }
+          }
+        },
+        "Reflections": {
+          "enabled": false
+        },
+        "Emissive": {
+          "enabled": false,
+          "SubFeatures": {
+            "Emissive Texture": {
+              "enabled": false
+            }
+          }
+        }
+      },
+      "materialType": "Standard",
+      "diffuseColor": 16777215,
+      "emissiveColor": 0,
+      "colorOpacity": 1,
+      "diffuseTexture": "558ad7fe60cdd409224e9679",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "hasPreview": true,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9673",
+    "prefabObjectId": "558ad7fe60cdd409224e963b",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963b",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "82",
+      "faceCount": 9424,
+      "vertexCount": 18652,
+      "boundingbox": {
+        "min": {
+          "x": -0.14897000000000002,
+          "y": -0.5885669999999996,
+          "z": -0.5880819999999999
+        },
+        "max": {
+          "x": 0.14876400000000004,
+          "y": 0.5885669999999996,
+          "z": 0.5880829999999999
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 1.579381887495401e-7,
+        "y": -1.2071706056594844,
+        "z": -2.4196910858154297
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e966a",
+    "prefabObjectId": "558ad7fe60cdd409224e9632",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9632",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "55",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.027786,
+          "y": -3.3340239999999994,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 2.0277870000000005,
+          "y": -2.6344189999999994,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9669",
+    "prefabObjectId": "558ad7fe60cdd409224e9631",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9631",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "52",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.027786,
+          "y": -2.027786,
+          "z": -3.3340239999999994
+        },
+        "max": {
+          "x": 2.0277870000000005,
+          "y": 2.0277870000000005,
+          "z": -2.6344189999999994
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9671",
+    "prefabObjectId": "558ad7fe60cdd409224e9639",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9639",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9670",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "HEAD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "76",
+      "faceCount": 34032,
+      "vertexCount": 64158,
+      "boundingbox": {
+        "min": {
+          "x": -1.9773129999999999,
+          "y": -2.021501,
+          "z": 3.190018
+        },
+        "max": {
+          "x": 1.977312,
+          "y": 1.9773129999999999,
+          "z": 7.0619439999999996
+        }
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "position": {
+        "x": 1.5326909899999998e-7,
+        "y": -8.499972000000003e-9,
+        "z": -0.002013325924054
+      },
+      "orientation": {
+        "x": 1.5866655214865644e-15,
+        "y": -9.380019621150815e-16,
+        "z": -0.26781188141783463,
+        "w": 0.9634712222850457
+      },
+      "scale": {
+        "x": 1.0000000000000002,
+        "y": 1,
+        "z": 1.0000000000000002
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e966c",
+    "prefabObjectId": "558ad7fe60cdd409224e9634",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9634",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC6",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "61",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -3.3340239999999994,
+          "y": -2.027786,
+          "z": -2.027786
+        },
+        "max": {
+          "x": -2.6344189999999994,
+          "y": 2.027786,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e966b",
+    "prefabObjectId": "558ad7fe60cdd409224e9633",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9633",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "58",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.0277870000000005,
+          "y": -2.0277870000000005,
+          "z": 2.6344189999999994
+        },
+        "max": {
+          "x": 2.027786,
+          "y": 2.027786,
+          "z": 3.3340239999999994
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9668",
+    "prefabObjectId": "558ad7fe60cdd409224e9630",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9630",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC5",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "49",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": 2.6344189999999994,
+          "y": -2.027786,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 3.3340239999999994,
+          "y": 2.027786,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9667",
+    "prefabObjectId": "558ad7fe60cdd409224e962f",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962f",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9666",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "46",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.0277870000000005,
+          "y": 2.6344189999999994,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 2.027786,
+          "y": 3.3340239999999994,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9695",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9641",
+    "parentId": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "camera",
+    "name": "Default Camera",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "position": {
+        "x": -86.51792517423019,
+        "y": 48.2804353008567,
+        "z": -19.694683671289834
+      },
+      "orientation": {
+        "x": -0.05185447148821876,
+        "y": -0.7778934940028059,
+        "z": -0.06672636536380289,
+        "w": 0.622688058457709
+      },
+      "fov": "50",
+      "type": "PerspectiveCamera",
+      "visible": true,
+      "aspect": 1.7777777777777777,
+      "near": 1,
+      "far": 120000,
+      "left": -1,
+      "right": 1,
+      "top": 1,
+      "bottom": -1,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {
+      "bbb7f60a-8427-4da2-bc9b-8c6b80ce94c5": {
+        "isBuiltIn": true,
+        "enabled": true,
+        "componentData": {
+          "usePointerLock": false,
+          "interpSpeed": 0.5,
+          "interpolation": true,
+          "enableZoom": true,
+          "enablePan": false,
+          "pitchAngleBounds": {
+            "min": -75,
+            "max": 75
+          },
+          "orbitDistanceMax": 90,
+          "orbitDistanceMin": 90,
+          "autoOrbitDelay": 1,
+          "autoOrbitSpeed": 1,
+          "autoOrbit": false,
+          "movementSpeed": 800,
+          "lookSpeed": 1,
+          "invertZoom": false,
+          "invertY": false,
+          "invertX": false,
+          "inertialDamping": 0.4,
+          "targetOffset": {
+            "y": 1.8639599895907173,
+            "x": -4.1100946068794997e-7,
+            "z": 0.022094000959218096
+          },
+          "targetObject": "558ad7fe60cdd409224e9645"
+        },
+        "scriptId": "orbit_camera_controller"
+      },
+      "free_camera_component": {
+        "componentData": {
+          "enableZoom": true,
+          "enablePan": true,
+          "pitchAngleBounds": {
+            "min": -75,
+            "max": 75
+          },
+          "movementSpeed": 300,
+          "lookSpeed": 1,
+          "invertZoom": false,
+          "invertY": false,
+          "invertX": false,
+          "usePointerLock": false,
+          "inertialDamping": 0.2
+        },
+        "scriptId": "free_camera_controller",
+        "isBuiltIn": true,
+        "enabled": false
+      },
+      "render_view_component": {
+        "componentData": {
+          "enableShadows": true,
+          "enablePreRenderFunctions": true,
+          "renderTarget": null,
+          "clearDepth": true,
+          "clearColor": false,
+          "renderGroup": 0,
+          "viewportHeight": "100%",
+          "viewportWidth": "100%",
+          "viewportBottom": "0px",
+          "viewportLeft": "0px"
+        },
+        "scriptId": "render_view_component",
+        "isBuiltIn": true,
+        "enabled": true
+      },
+      "camera_filters_component": {
+        "componentData": {
+          "video": {
+            "grayscale": false,
+            "sCount": 512,
+            "sIntensity": 0.05,
+            "nIntensity": 0.15,
+            "enabled": false,
+            "override": false
+          },
+          "sepia": {
+            "amount": 0.9,
+            "enabled": false,
+            "override": false
+          },
+          "dof": {
+            "focus": 0.98,
+            "aperture": 0.4,
+            "aspect": 1,
+            "enabled": false,
+            "override": false
+          },
+          "ssao": {
+            "gDisplace": 0.4,
+            "diffArea": 0.4,
+            "radius": 16,
+            "noiseAmount": 0.0002,
+            "lumInfluence": 0.75,
+            "aoClamp": 0.75,
+            "onlyAO": 0,
+            "depthScale": 2000,
+            "fogEnabled": 1,
+            "enabled": false,
+            "override": false
+          },
+          "vignette": {
+            "darkness": 1,
+            "offset": 1,
+            "enabled": false,
+            "override": false
+          },
+          "fxaa": {
+            "enabled": false,
+            "override": false
+          },
+          "toneMapping": {
+            "luminance": 1,
+            "maxLuminance": 16,
+            "exposureBias": 1,
+            "adaptSpeed": 0.5,
+            "adaptive": true,
+            "override": false
+          },
+          "bloom": {
+            "resolution": 256,
+            "sigma": 4,
+            "strength": 1,
+            "enabled": false,
+            "override": false
+          }
+        },
+        "scriptId": "camera_filters_script",
+        "isBuiltIn": true,
+        "enabled": true
+      }
+    },
+    "componentsOrder": [
+      "camera_filters_component",
+      "render_view_component",
+      "free_camera_component",
+      "bbb7f60a-8427-4da2-bc9b-8c6b80ce94c5",
+      "57683ff3-adca-4f41-4b23-0f0cb583fffd"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9626",
+    "parentAssetId": "558ad7fe60cdd409224e9626",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "application",
+    "name": "Application",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "container": "#verold3d",
+      "engineName": "Default",
+      "visible": true,
+      "loadStartupScene": "558ad7fe60cdd409224e9640",
+      "useVeroldLoader": true
+    },
+    "resources": [],
+    "components": {
+      "verold_renderer_component": {
+        "componentData": {
+          "logarithmicDepthBuffer": true,
+          "shadowMapDebug": false,
+          "shadowMapCullFace": 1,
+          "shadowMapAutoUpdate": true,
+          "shadowMapType": 2,
+          "shadowMapEnabledMobile": false,
+          "shadowMapEnabled": true,
+          "precision": "mediump",
+          "clearAlpha": 0,
+          "clearColor": 0,
+          "devicePixelRatio": 0,
+          "autoClear": false,
+          "preserveDrawingBuffer": true,
+          "antialias": true,
+          "renderOnDemand": false
+        },
+        "scriptId": "verold_renderer",
+        "isBuiltIn": true,
+        "enabled": true
+      },
+      "renderer_filters_component": {
+        "componentData": {
+          "video": {
+            "grayscale": false,
+            "sCount": 512,
+            "sIntensity": 0.05,
+            "nIntensity": 0.15,
+            "enabled": false
+          },
+          "sepia": {
+            "amount": 0.9,
+            "enabled": false
+          },
+          "dof": {
+            "focus": 0.98,
+            "aperture": 0.4,
+            "aspect": 1,
+            "enabled": false
+          },
+          "ssao": {
+            "gDisplace": 0.4,
+            "diffArea": 0.4,
+            "radius": 16,
+            "noiseAmount": 0.0002,
+            "lumInfluence": 0.75,
+            "aoClamp": 0.75,
+            "onlyAO": 0,
+            "depthScale": 2000,
+            "fogEnabled": 1,
+            "enabled": false
+          },
+          "vignette": {
+            "darkness": 1,
+            "offset": 1,
+            "enabled": false
+          },
+          "fxaa": {
+            "enabled": false
+          },
+          "toneMapping": {
+            "luminance": 1,
+            "maxLuminance": 16,
+            "exposureBias": 1,
+            "adaptSpeed": 0.5,
+            "adaptive": true,
+            "enabled": false
+          },
+          "bloom": {
+            "resolution": 256,
+            "sigma": 4,
+            "strength": 1,
+            "enabled": false
+          }
+        },
+        "scriptId": "render_filters_component",
+        "isBuiltIn": true,
+        "enabled": true
+      },
+      "input_controller_component": {
+        "componentData": {
+          "keyEvents": {
+            "eventHandler": true,
+            "preventDefault": false,
+            "up": true,
+            "down": true,
+            "enable": true
+          },
+          "touchEvents": {
+            "eventHandler": true,
+            "dragBufferDistance": 4,
+            "move_preventDefault": true,
+            "move": true,
+            "leave": true,
+            "cancel": true,
+            "end": true,
+            "start_preventDefault": true,
+            "start": true,
+            "enable": true
+          },
+          "mouseEvents": {
+            "eventHandler": true,
+            "contextMenu_preventDefault": true,
+            "contextMenu": true,
+            "leave": true,
+            "up": true,
+            "down": true,
+            "move": true,
+            "scroll_preventDefault": false,
+            "scroll": true,
+            "enable": true
+          }
+        },
+        "scriptId": "input_controller_component",
+        "isBuiltIn": true,
+        "enabled": true
+      }
+    },
+    "componentsOrder": [
+      "input_controller_component",
+      "renderer_filters_component",
+      "verold_renderer_component"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "scene",
+    "name": "Scene",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "visible": true,
+      "fog": {
+        "type": "FogExp2",
+        "density": 0.0004,
+        "color": 12894906
+      },
+      "environment": {
+        "groundPlaneMaterialScale": 40,
+        "groundPlaneScale": 10000,
+        "groundPlaneOn": false,
+        "groundPlaneTesselation": 10,
+        "groundPlaneMaterial": null
+      }
+    },
+    "resources": [],
+    "components": {
+      "skybox_component": {
+        "componentData": {
+          "skyboxFogScale": 0.45,
+          "skyboxFogPower": 0.843,
+          "size": 100000,
+          "skyboxTexture": "white_cube"
+        },
+        "enabled": false,
+        "isBuiltIn": true,
+        "scriptId": "skybox_renderer"
+      },
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387": {
+        "scriptId": "event_handler_component",
+        "componentData": {
+          "triggers": [
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964c",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9651",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9650",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964f",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964d",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964e",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9652",
+              "parameters": [
+                "558ad7fe60cdd409224e9698",
+                0
+              ],
+              "eventScope": "object"
+            }
+          ],
+          "listen": {
+            "eventScope": "custom",
+            "parameters": [],
+            "event": "transparent"
+          },
+          "triggers[0]": null,
+          "triggers[1]": null,
+          "triggers[2]": null,
+          "triggers[3]": null,
+          "triggers[4]": null,
+          "triggers[5]": null,
+          "triggers[6]": null
+        },
+        "enabled": true,
+        "isBuiltIn": true
+      },
+      "80fd6f57-7f13-4867-422c-af5dbc04d086": {
+        "scriptId": "event_handler_component",
+        "componentData": {
+          "triggers": [
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964c",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9651",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9650",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964f",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e964d",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "object": "558ad7fe60cdd409224e964e",
+              "event": "setMaterial"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [
+                "558ad7fe60cdd409224e9694",
+                0
+              ],
+              "object": "558ad7fe60cdd409224e9652",
+              "event": "setMaterial"
+            }
+          ],
+          "listen": {
+            "eventScope": "custom",
+            "parameters": [],
+            "event": "solid"
+          },
+          "triggers[0]": null,
+          "triggers[1]": null,
+          "triggers[2]": null,
+          "triggers[3]": null,
+          "triggers[4]": null,
+          "triggers[5]": null,
+          "triggers[6]": null
+        },
+        "enabled": true,
+        "isBuiltIn": true
+      },
+      "387300e6-7a1d-437a-94f6-70ebdff5408e": {
+        "scriptId": "event_handler_component",
+        "componentData": {
+          "triggers[7]": null,
+          "triggers[6]": null,
+          "triggers[5]": null,
+          "triggers[4]": null,
+          "triggers": [
+            {
+              "event": "setVisible",
+              "object": "558ad7fe60cdd409224e9648",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "event": "setVisible",
+              "object": "558ad7fe60cdd409224e964a",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "event": "setVisible",
+              "object": "558ad7fe60cdd409224e9653",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "event": "setMaterial",
+              "object": "558ad7fe60cdd409224e9655",
+              "parameters": [
+                "558ad7fe60cdd409224e9675",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "event": "setVisible",
+              "object": "558ad7fe60cdd409224e9649",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [],
+              "event": "setVisible",
+              "object": "558ad7fe60cdd409224e9659"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [],
+              "object": "558ad7fe60cdd409224e9658",
+              "event": "setInvisible"
+            },
+            {
+              "object": "558ad7fe60cdd409224e965a",
+              "event": "setInvisible",
+              "parameters": [],
+              "eventScope": "object"
+            }
+          ],
+          "listen": {
+            "eventScope": "custom",
+            "parameters": [],
+            "event": "mechanism1"
+          },
+          "triggers[0]": null,
+          "triggers[1]": null,
+          "triggers[2]": null,
+          "triggers[3]": null
+        },
+        "enabled": true,
+        "isBuiltIn": true
+      },
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78": {
+        "scriptId": "event_handler_component",
+        "componentData": {
+          "triggers[7]": null,
+          "triggers[6]": null,
+          "triggers[5]": null,
+          "triggers[4]": null,
+          "triggers": [
+            {
+              "object": "558ad7fe60cdd409224e9648",
+              "event": "setInvisible",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "object": "558ad7fe60cdd409224e9653",
+              "event": "setInvisible",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "object": "558ad7fe60cdd409224e964a",
+              "event": "setInvisible",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "object": "558ad7fe60cdd409224e9655",
+              "event": "setMaterial",
+              "parameters": [
+                "558ad7fe60cdd409224e9696",
+                0
+              ],
+              "eventScope": "object"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [],
+              "object": "558ad7fe60cdd409224e9649",
+              "event": "setInvisible"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [],
+              "object": "558ad7fe60cdd409224e9659",
+              "event": "setInvisible"
+            },
+            {
+              "object": "558ad7fe60cdd409224e9658",
+              "event": "setVisible",
+              "parameters": [],
+              "eventScope": "object"
+            },
+            {
+              "eventScope": "object",
+              "parameters": [],
+              "object": "558ad7fe60cdd409224e965a",
+              "event": "setVisible"
+            }
+          ],
+          "listen": {
+            "eventScope": "custom",
+            "parameters": [],
+            "event": "mechanism2"
+          },
+          "triggers[0]": null,
+          "triggers[1]": null,
+          "triggers[2]": null,
+          "triggers[3]": null
+        },
+        "enabled": true,
+        "isBuiltIn": true
+      },
+      "a73d1d3a-16cf-4784-b22e-d4e7b1768d03": {
+        "componentData": {},
+        "scriptId": "558ad7fe60cdd409224e963f",
+        "enabled": true
+      }
+    },
+    "componentsOrder": [
+      "skybox_component",
+      "editor_mesh_picker",
+      "editor_axis_widget",
+      "editor_bbox_renderer",
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387",
+      "80fd6f57-7f13-4867-422c-af5dbc04d086",
+      "387300e6-7a1d-437a-94f6-70ebdff5408e",
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78",
+      "a73d1d3a-16cf-4784-b22e-d4e7b1768d03"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9641": true,
+      "558ad7fe60cdd409224e9642": true,
+      "558ad7fe60cdd409224e9643": true,
+      "558ad7fe60cdd409224e9644": true,
+      "558ad7fe60cdd409224e9645": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e963f",
+    "parentAssetId": "558ad7fe60cdd409224e963f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "script",
+    "name": "SceneLoad",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "category": "User Defined",
+      "parsedComments": false,
+      "visible": true,
+      "minified": "(function(t,o,e,n,r,i){function p(){}p.prototype=new e.VeroldComponent;p.prototype.init=function(){};p.prototype.sceneLoaded=function(){$(\"#load-scene\").remove();$(\".controls3d\").show();e.globalEvents.trigger(\"mechanism1\")};p.prototype.objectCreated=function(){};p.prototype.update=function(t){var o;if(this.hasThreeData()){o=this.getThreeData()}};p.prototype.shutdown=function(){};return p});",
+      "description": ""
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9666",
+    "prefabObjectId": "558ad7fe60cdd409224e962e",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962e",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "CONTROL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "43",
+      "faceCount": 3264,
+      "vertexCount": 6478,
+      "boundingbox": {
+        "min": {
+          "x": -2.63442,
+          "y": -2.63442,
+          "z": -2.63442
+        },
+        "max": {
+          "x": 2.63442,
+          "y": 2.63442,
+          "z": 2.63442
+        }
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.6221115079835224,
+        "y": 0.33612091817449813,
+        "z": -0.33612091817450207,
+        "w": 0.6221115079835202
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387",
+      "80fd6f57-7f13-4867-422c-af5dbc04d086"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9667": true,
+      "558ad7fe60cdd409224e9668": true,
+      "558ad7fe60cdd409224e9669": true,
+      "558ad7fe60cdd409224e966a": true,
+      "558ad7fe60cdd409224e966b": true,
+      "558ad7fe60cdd409224e966c": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e965f",
+    "prefabObjectId": "558ad7fe60cdd409224e9627",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9627",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "model",
+    "name": "BB8V2FBXHD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "boundingbox": {
+        "min": {
+          "x": -3.744914523874929,
+          "y": -3.3340240000000003,
+          "z": -3.7253815894667985
+        },
+        "max": {
+          "x": 3.7449137018560075,
+          "y": 7.061943979181435,
+          "z": 3.7695695913852347
+        }
+      },
+      "scale": {
+        "x": 6.736673088694552,
+        "y": 6.736673088694552,
+        "z": 6.736673088694552
+      },
+      "position": {
+        "x": 0.0000027688363744005073,
+        "y": 22.460229757861768,
+        "z": -0.1488400616835559
+      },
+      "modelData": {
+        "meshCount": 19,
+        "totalVertices": 248729,
+        "totalFaces": 131832
+      },
+      "formatVersion": 6,
+      "orientation": {
+        "x": 0,
+        "y": 0.9994154829091597,
+        "z": 0,
+        "w": -0.03418606338948699
+      },
+      "castShadow": true,
+      "receiveShadow": true,
+      "opacity": 1,
+      "selectable": true
+    },
+    "resources": [],
+    "components": {
+      "bbb976ed-b45d-4618-ae41-0167d51f22b8": {
+        "scriptId": "animation",
+        "componentData": {
+          "autoPlay": true,
+          "loop": true,
+          "speed": 1,
+          "startTime": 0,
+          "weight": 1,
+          "asset": "558ad7fe60cdd409224e963e",
+          "take": "Default Take"
+        },
+        "enabled": true,
+        "isBuiltIn": true
+      }
+    },
+    "componentsOrder": [
+      "bbb976ed-b45d-4618-ae41-0167d51f22b8"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9660": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9659",
+    "prefabObjectId": "558ad7fe60cdd409224e963b",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963b",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 0.7071067811865476,
+        "z": 0,
+        "y": 0,
+        "x": -0.7071067811865475
+      },
+      "position": {
+        "z": -2.4196910858154297,
+        "y": -1.2071706056594844,
+        "x": 1.579381887495401e-7
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "boundingbox": {
+        "max": {
+          "z": 0.5880829999999999,
+          "y": 0.5885669999999996,
+          "x": 0.14876400000000004
+        },
+        "min": {
+          "z": -0.5880819999999999,
+          "y": -0.5885669999999996,
+          "x": -0.14897000000000002
+        }
+      },
+      "vertexCount": 18652,
+      "faceCount": 9424,
+      "geometryName": "82",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9657",
+    "prefabObjectId": "558ad7fe60cdd409224e9639",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9639",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9656",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "HEAD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "visible": true,
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "76",
+      "faceCount": 34032,
+      "vertexCount": 64158,
+      "boundingbox": {
+        "min": {
+          "x": -1.9773129999999999,
+          "y": -2.021501,
+          "z": 3.190018
+        },
+        "max": {
+          "x": 1.977312,
+          "y": 1.9773129999999999,
+          "z": 7.0619439999999996
+        }
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "position": {
+        "x": 1.5326909899999998e-7,
+        "y": -8.499972000000003e-9,
+        "z": -0.002013325924054
+      },
+      "orientation": {
+        "x": 1.5866655214865644e-15,
+        "y": -9.380019621150815e-16,
+        "z": -0.26781188141783463,
+        "w": 0.9634712222850457
+      },
+      "scale": {
+        "x": 1.0000000000000002,
+        "y": 1,
+        "z": 1.0000000000000002
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9652",
+    "prefabObjectId": "558ad7fe60cdd409224e9634",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9634",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC6",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 2.027786,
+          "y": 2.027786,
+          "x": -2.6344189999999994
+        },
+        "min": {
+          "z": -2.027786,
+          "y": -2.027786,
+          "x": -3.3340239999999994
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "61",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9651",
+    "prefabObjectId": "558ad7fe60cdd409224e9633",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9633",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 3.3340239999999994,
+          "y": 2.027786,
+          "x": 2.027786
+        },
+        "min": {
+          "z": 2.6344189999999994,
+          "y": -2.0277870000000005,
+          "x": -2.0277870000000005
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "58",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9650",
+    "prefabObjectId": "558ad7fe60cdd409224e9632",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9632",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 2.027786,
+          "y": -2.6344189999999994,
+          "x": 2.0277870000000005
+        },
+        "min": {
+          "z": -2.027786,
+          "y": -3.3340239999999994,
+          "x": -2.027786
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "55",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e964f",
+    "prefabObjectId": "558ad7fe60cdd409224e9631",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9631",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": -2.6344189999999994,
+          "y": 2.0277870000000005,
+          "x": 2.0277870000000005
+        },
+        "min": {
+          "z": -3.3340239999999994,
+          "y": -2.027786,
+          "x": -2.027786
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "52",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e964e",
+    "prefabObjectId": "558ad7fe60cdd409224e9630",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9630",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC5",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 2.027786,
+          "y": 2.027786,
+          "x": 3.3340239999999994
+        },
+        "min": {
+          "z": -2.027786,
+          "y": -2.027786,
+          "x": 2.6344189999999994
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "49",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e964d",
+    "prefabObjectId": "558ad7fe60cdd409224e962f",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962f",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e964c",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 2.027786,
+          "y": 3.3340239999999994,
+          "x": 2.027786
+        },
+        "min": {
+          "z": -2.027786,
+          "y": 2.6344189999999994,
+          "x": -2.0277870000000005
+        }
+      },
+      "vertexCount": 3456,
+      "faceCount": 1728,
+      "geometryName": "46",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e964c",
+    "prefabObjectId": "558ad7fe60cdd409224e962e",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962e",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9647",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "CONTROL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "orientation": {
+        "w": 0.6584171200936242,
+        "z": 0.2578495117721136,
+        "y": 0.2578507864064725,
+        "x": -0.6584174186608887
+      },
+      "position": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "material": "558ad7fe60cdd409224e9694",
+      "boundingbox": {
+        "max": {
+          "z": 2.63442,
+          "y": 2.63442,
+          "x": 2.63442
+        },
+        "min": {
+          "z": -2.63442,
+          "y": -2.63442,
+          "x": -2.63442
+        }
+      },
+      "vertexCount": 6478,
+      "faceCount": 3264,
+      "geometryName": "43",
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "visible": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "3dc6fbb8-9eac-49b1-4bdf-9f705f0f5387",
+      "80fd6f57-7f13-4867-422c-af5dbc04d086"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e964d": true,
+      "558ad7fe60cdd409224e964e": true,
+      "558ad7fe60cdd409224e964f": true,
+      "558ad7fe60cdd409224e9650": true,
+      "558ad7fe60cdd409224e9651": true,
+      "558ad7fe60cdd409224e9652": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9645",
+    "prefabObjectId": "558ad7fe60cdd409224e9627",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9627",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "model",
+    "name": "BB8V2FBXHD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {
+      "selectable": true,
+      "opacity": 1,
+      "receiveShadow": true,
+      "castShadow": true,
+      "orientation": {
+        "w": 0.015689260002841154,
+        "z": 0,
+        "y": 0.9998769224903883,
+        "x": 0
+      },
+      "formatVersion": 6,
+      "modelData": {
+        "totalFaces": 131832,
+        "totalVertices": 248729,
+        "meshCount": 19
+      },
+      "position": {
+        "z": -0.1488400616835559,
+        "y": 22.460229757861768,
+        "x": 0.0000027688363744005073
+      },
+      "scale": {
+        "z": 6.736673088694552,
+        "y": 6.736673088694552,
+        "x": 6.736673088694552
+      },
+      "boundingbox": {
+        "max": {
+          "z": 3.7695695913852347,
+          "y": 7.061943979181435,
+          "x": 3.7449137018560075
+        },
+        "min": {
+          "z": -3.7253815894667985,
+          "y": -3.3340240000000003,
+          "x": -3.744914523874929
+        }
+      },
+      "visible": true
+    },
+    "resources": [],
+    "components": {
+      "bbb976ed-b45d-4618-ae41-0167d51f22b8": {
+        "isBuiltIn": true,
+        "enabled": true,
+        "componentData": {
+          "take": "Default Take",
+          "asset": "558ad7fe60cdd409224e963e",
+          "weight": 1,
+          "startTime": 0,
+          "speed": 1,
+          "loop": true,
+          "autoPlay": true
+        },
+        "scriptId": "animation"
+      }
+    },
+    "componentsOrder": [
+      "bbb976ed-b45d-4618-ae41-0167d51f22b8"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9646": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9644",
+    "parentId": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "light",
+    "name": "Fill Light",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "shadowMapHeight": 1024,
+      "shadowMapWidth": 1024,
+      "shadowBias": -0.0015,
+      "shadowCameraBottom": -200,
+      "shadowCameraTop": 200,
+      "shadowCameraRight": 200,
+      "shadowCameraLeft": -200,
+      "shadowCameraFar": 3000,
+      "shadowCameraNear": 100,
+      "castShadow": false,
+      "target": {
+        "position": {
+          "z": 0,
+          "y": 0,
+          "x": 0
+        }
+      },
+      "position": {
+        "z": -28.436962166141683,
+        "y": 326.3967394751227,
+        "x": 500
+      },
+      "intensity": 0.25,
+      "color": 14147572,
+      "type": "DirectionalLight",
+      "visible": true,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "shadowCascade": false,
+      "shadowCascadeCount": 3,
+      "shadowCascadeNearZ": [
+        -1,
+        0.9,
+        0.97
+      ],
+      "shadowCascadeFarZ": [
+        0.9,
+        0.97,
+        0.992
+      ],
+      "shadowCascadeWidth": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeHeight": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeBias": [
+        -0.0002,
+        -0.0004,
+        -0.001
+      ],
+      "shadowCascadeOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "698a2e6f-4c8e-4297-bebe-0deff598f149"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9643",
+    "parentId": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "light",
+    "name": "Main Light",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "intensity": 0.9,
+      "orientation": {
+        "w": 1,
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "shadowCascadeOffset": {
+        "z": 0,
+        "y": 0,
+        "x": 0
+      },
+      "shadowCascadeBias": [
+        -0.0002,
+        -0.0004,
+        -0.001
+      ],
+      "shadowCascadeHeight": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeWidth": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeFarZ": [
+        0.9,
+        0.97,
+        0.992
+      ],
+      "shadowCascadeNearZ": [
+        -1,
+        0.9,
+        0.97
+      ],
+      "shadowCascadeCount": 3,
+      "shadowCascade": false,
+      "scale": {
+        "z": 1,
+        "y": 1,
+        "x": 1
+      },
+      "visible": true,
+      "type": "DirectionalLight",
+      "color": 16579304,
+      "position": {
+        "x": -74.36407443279147,
+        "y": 320.0889736724176,
+        "z": -240.84858949043704
+      },
+      "target": null,
+      "castShadow": true,
+      "shadowCameraNear": 100,
+      "shadowCameraFar": 3000,
+      "shadowCameraLeft": -200,
+      "shadowCameraRight": 200,
+      "shadowCameraTop": 200,
+      "shadowCameraBottom": -200,
+      "shadowBias": -0.0015,
+      "shadowMapWidth": 2048,
+      "shadowMapHeight": 2048
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "e954d446-05c7-47ca-b755-58351777b072"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9642",
+    "parentId": "558ad7fe60cdd409224e9640",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "light",
+    "name": "Ambient Light",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {
+      "color": 4669239,
+      "type": "AmbientLight",
+      "visible": true,
+      "intensity": 1,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "shadowBias": -0.0015,
+      "shadowMapWidth": 1024,
+      "shadowMapHeight": 1024,
+      "shadowCameraLeft": -12,
+      "shadowCameraRight": 12,
+      "shadowCameraTop": 12,
+      "shadowCameraBottom": -12,
+      "shadowCameraNear": 1.4,
+      "shadowCameraFar": 50,
+      "shadowCascade": false,
+      "shadowCascadeCount": 3,
+      "shadowCascadeNearZ": [
+        -1,
+        0.9,
+        0.97
+      ],
+      "shadowCascadeFarZ": [
+        0.9,
+        0.97,
+        0.992
+      ],
+      "shadowCascadeWidth": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeHeight": [
+        1024,
+        1024,
+        1024
+      ],
+      "shadowCascadeBias": [
+        -0.0002,
+        -0.0004,
+        -0.001
+      ],
+      "shadowCascadeOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "80fd6f57-7f13-4867-422c-af5dbc04d086"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9674",
+    "prefabObjectId": "558ad7fe60cdd409224e963c",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963c",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASEMECH2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9672",
+    "prefabObjectId": "558ad7fe60cdd409224e963a",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e963a",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9670",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARM",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9670",
+    "prefabObjectId": "558ad7fe60cdd409224e9638",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9638",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e966f",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "MOTORIMAN",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9671": true,
+      "558ad7fe60cdd409224e9672": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e966f",
+    "prefabObjectId": "558ad7fe60cdd409224e9637",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9637",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARCO",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e",
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78"
+    ],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9670": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e966e",
+    "prefabObjectId": "558ad7fe60cdd409224e9636",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9636",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e966d",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e966d",
+    "prefabObjectId": "558ad7fe60cdd409224e9635",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9635",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMLL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e966e": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9665",
+    "prefabObjectId": "558ad7fe60cdd409224e962d",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962d",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9664",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9664",
+    "prefabObjectId": "558ad7fe60cdd409224e962c",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962c",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMR",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9665": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9663",
+    "prefabObjectId": "558ad7fe60cdd409224e962b",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962b",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9662",
+    "prefabObjectId": "558ad7fe60cdd409224e962a",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e962a",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9661",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASE",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [
+      "387300e6-7a1d-437a-94f6-70ebdff5408e",
+      "88f1ed13-7f37-4ca1-9d95-59a90173bc78"
+    ],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9661",
+    "prefabObjectId": "558ad7fe60cdd409224e9629",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9629",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9660",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "blend_root",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9662": true,
+      "558ad7fe60cdd409224e9663": true,
+      "558ad7fe60cdd409224e9664": true,
+      "558ad7fe60cdd409224e9666": true,
+      "558ad7fe60cdd409224e966d": true,
+      "558ad7fe60cdd409224e966f": true,
+      "558ad7fe60cdd409224e9673": true,
+      "558ad7fe60cdd409224e9674": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9660",
+    "prefabObjectId": "558ad7fe60cdd409224e9628",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9628",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e965f",
+    "parentAssetId": "558ad7fe60cdd409224e965f",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "RootNode",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9661": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9647",
+    "prefabObjectId": "558ad7fe60cdd409224e9629",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9629",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9646",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "blend_root",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9648": true,
+      "558ad7fe60cdd409224e9649": true,
+      "558ad7fe60cdd409224e964a": true,
+      "558ad7fe60cdd409224e964c": true,
+      "558ad7fe60cdd409224e9653": true,
+      "558ad7fe60cdd409224e9655": true,
+      "558ad7fe60cdd409224e9659": true,
+      "558ad7fe60cdd409224e965a": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9646",
+    "prefabObjectId": "558ad7fe60cdd409224e9628",
+    "prefabAssetId": "558ad7fe60cdd409224e9627",
+    "sourceObjectId": "558ad7fe60cdd409224e9628",
+    "sourceAssetId": "558ad7fe60cdd409224e9627",
+    "prefabInstanceId": "558ad7fe60cdd409224e965f",
+    "parentId": "558ad7fe60cdd409224e9645",
+    "parentAssetId": "558ad7fe60cdd409224e9640",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "RootNode",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9647": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e963e",
+    "parentAssetId": "558ad7fe60cdd409224e963e",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "animation",
+    "name": "BB8V2FBXHD_animation",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "takes": [
+        {
+          "start": 0,
+          "stop": 3.96,
+          "layers": [
+            "Layer_110_Layer0"
+          ],
+          "name": "Default Take"
+        }
+      ],
+      "animation_version": 1
+    },
+    "resources": [
+      {
+        "path": "2fa4d159-7f3a-473a-88dd-dbff4a64c15c-anim.js",
+        "contentType": "application/json",
+        "contentEncoding": "gzip",
+        "contentLength": 18822,
+        "contentLengthIdentity": 48973,
+        "_id": "55897f4b71cf847844891e35"
+      }
+    ],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e963d",
+    "parentAssetId": "558ad7fe60cdd409224e963d",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "geometry",
+    "name": "BB8V2FBXHD_geometry",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometry_version": 1
+    },
+    "resources": [
+      {
+        "path": "2fa4d159-7f3a-473a-88dd-dbff4a64c15c-geo.json",
+        "contentType": "application/json",
+        "contentEncoding": "gzip",
+        "contentLength": 1680,
+        "contentLengthIdentity": 13522,
+        "_id": "55897f4b71cf847844891e38"
+      },
+      {
+        "path": "2fa4d159-7f3a-473a-88dd-dbff4a64c15c-geo.bin",
+        "contentType": "application/octet-stream",
+        "contentEncoding": "gzip",
+        "contentLength": 4719531,
+        "contentLengthIdentity": 12729984,
+        "_id": "55897f4b71cf847844891e37"
+      }
+    ],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e963c",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASEMECH2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "85",
+      "faceCount": 15048,
+      "vertexCount": 26838,
+      "boundingbox": {
+        "min": {
+          "x": -2.9784269999999995,
+          "y": -2.9660499999999996,
+          "z": -2.5269419999999996
+        },
+        "max": {
+          "x": 2.9640409999999995,
+          "y": 2.970327,
+          "z": 0.09638199999999997
+        }
+      },
+      "material": "558ad7fe60cdd409224e9678",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e963b",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "82",
+      "faceCount": 9424,
+      "vertexCount": 18652,
+      "boundingbox": {
+        "min": {
+          "x": -0.14897000000000002,
+          "y": -0.5885669999999996,
+          "z": -0.5880819999999999
+        },
+        "max": {
+          "x": 0.14876400000000004,
+          "y": 0.5885669999999996,
+          "z": 0.5880829999999999
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 1.5793818899999997e-7,
+        "y": -1.2071706056594846,
+        "z": -2.41969108581543
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e963a",
+    "parentId": "558ad7fe60cdd409224e9638",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARM",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "79",
+      "faceCount": 2656,
+      "vertexCount": 5188,
+      "boundingbox": {
+        "min": {
+          "x": -0.963624,
+          "y": -0.963623,
+          "z": -0.305692
+        },
+        "max": {
+          "x": 0.963623,
+          "y": 0.963623,
+          "z": 3.288365
+        }
+      },
+      "material": "558ad7fe60cdd409224e9678",
+      "position": {
+        "x": 2.637238000000002e-8,
+        "y": 7.787645000000002e-8,
+        "z": -2.3283000007146004e-10
+      },
+      "orientation": {
+        "x": 1.5866655214865644e-15,
+        "y": -9.380019621150815e-16,
+        "z": -0.26781188141783463,
+        "w": 0.9634712222850457
+      },
+      "scale": {
+        "x": 1.0000000000000002,
+        "y": 1,
+        "z": 1.0000000000000002
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9639",
+    "parentId": "558ad7fe60cdd409224e9638",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "HEAD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "76",
+      "faceCount": 34032,
+      "vertexCount": 64158,
+      "boundingbox": {
+        "min": {
+          "x": -1.9773129999999999,
+          "y": -2.021501,
+          "z": 3.190018
+        },
+        "max": {
+          "x": 1.977312,
+          "y": 1.9773129999999999,
+          "z": 7.0619439999999996
+        }
+      },
+      "material": "558ad7fe60cdd409224e9677",
+      "position": {
+        "x": 1.5326909899999998e-7,
+        "y": -8.499972000000003e-9,
+        "z": -0.002013325924054
+      },
+      "orientation": {
+        "x": 1.5866655214865644e-15,
+        "y": -9.380019621150815e-16,
+        "z": -0.26781188141783463,
+        "w": 0.9634712222850457
+      },
+      "scale": {
+        "x": 1.0000000000000002,
+        "y": 1,
+        "z": 1.0000000000000002
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9638",
+    "parentId": "558ad7fe60cdd409224e9637",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "MOTORIMAN",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "73",
+      "faceCount": 7336,
+      "vertexCount": 12957,
+      "boundingbox": {
+        "min": {
+          "x": -0.963624,
+          "y": -0.963623,
+          "z": 2.6962439999999996
+        },
+        "max": {
+          "x": 0.963623,
+          "y": 0.963623,
+          "z": 3.287068
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": -1.5326908499999998e-7,
+        "y": 8.499961000000007e-9,
+        "z": 0.002013206481934
+      },
+      "orientation": {
+        "x": 1.5446163893793551e-15,
+        "y": -9.33751151506812e-16,
+        "z": 3.8857805861880627e-16,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.9999999999999999,
+        "y": 0.9999999999999998,
+        "z": 0.9999999999999998
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9639": true,
+      "558ad7fe60cdd409224e963a": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9637",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARCO",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "70",
+      "faceCount": 9744,
+      "vertexCount": 16806,
+      "boundingbox": {
+        "min": {
+          "x": -0.2914880000000001,
+          "y": -2.4509819999999998,
+          "z": 1.224142
+        },
+        "max": {
+          "x": 0.2914880000000001,
+          "y": 2.4509819999999998,
+          "z": 2.8919499999999996
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.681277032262266,
+        "y": 0.18937160640370368,
+        "z": 0.18937158846205285,
+        "w": 0.6812770372494285
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9638": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9636",
+    "parentId": "558ad7fe60cdd409224e9635",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "67",
+      "faceCount": 9424,
+      "vertexCount": 18706,
+      "boundingbox": {
+        "min": {
+          "x": -0.588622,
+          "y": -0.14897000000000002,
+          "z": -0.587924
+        },
+        "max": {
+          "x": 0.5885949999999999,
+          "y": 0.14876400000000004,
+          "z": 0.587898
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 0.0028912853449578613,
+        "y": -0.00011009350418999999,
+        "z": 0.000480024144053237
+      },
+      "orientation": {
+        "x": -6.156777752512292e-17,
+        "y": -0.21643958143768363,
+        "z": 5.1159192417263035e-17,
+        "w": 0.9762960143251024
+      },
+      "scale": {
+        "x": 0.9999999999999997,
+        "y": 0.9999999999999998,
+        "z": 0.9999999999999999
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9635",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMLL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "64",
+      "faceCount": 1660,
+      "vertexCount": 3154,
+      "boundingbox": {
+        "min": {
+          "x": -1.5284949999999997,
+          "y": -0.33617500000000006,
+          "z": -0.33708900000000014
+        },
+        "max": {
+          "x": 0.230772,
+          "y": 0.33617500000000006,
+          "z": 0.33609400000000006
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 2.4086101055145255,
+        "y": -1.2264304161071777,
+        "z": 1.13977784e-7
+      },
+      "orientation": {
+        "x": -0.6903455310408928,
+        "y": 0.15304590086594172,
+        "z": -0.15304591361885328,
+        "w": 0.6903455282136407
+      },
+      "scale": {
+        "x": 0.9999999999999999,
+        "y": 0.9999999999999999,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9636": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9634",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC6",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "61",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -3.3340239999999994,
+          "y": -2.027786,
+          "z": -2.027786
+        },
+        "max": {
+          "x": -2.6344189999999994,
+          "y": 2.027786,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9633",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "58",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.0277870000000005,
+          "y": -2.0277870000000005,
+          "z": 2.6344189999999994
+        },
+        "max": {
+          "x": 2.027786,
+          "y": 2.027786,
+          "z": 3.3340239999999994
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9632",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC2",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "55",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.027786,
+          "y": -3.3340239999999994,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 2.0277870000000005,
+          "y": -2.6344189999999994,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9631",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC3",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "52",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.027786,
+          "y": -2.027786,
+          "z": -3.3340239999999994
+        },
+        "max": {
+          "x": 2.0277870000000005,
+          "y": 2.0277870000000005,
+          "z": -2.6344189999999994
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9630",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC5",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "49",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": 2.6344189999999994,
+          "y": -2.027786,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 3.3340239999999994,
+          "y": 2.027786,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e962f",
+    "parentId": "558ad7fe60cdd409224e962e",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "DISC4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "46",
+      "faceCount": 1728,
+      "vertexCount": 3456,
+      "boundingbox": {
+        "min": {
+          "x": -2.0277870000000005,
+          "y": 2.6344189999999994,
+          "z": -2.027786
+        },
+        "max": {
+          "x": 2.027786,
+          "y": 3.3340239999999994,
+          "z": 2.027786
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e962e",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "CONTROL",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "43",
+      "faceCount": 3264,
+      "vertexCount": 6478,
+      "boundingbox": {
+        "min": {
+          "x": -2.63442,
+          "y": -2.63442,
+          "z": -2.63442
+        },
+        "max": {
+          "x": 2.63442,
+          "y": 2.63442,
+          "z": 2.63442
+        }
+      },
+      "material": "558ad7fe60cdd409224e9676",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e962f": true,
+      "558ad7fe60cdd409224e9630": true,
+      "558ad7fe60cdd409224e9631": true,
+      "558ad7fe60cdd409224e9632": true,
+      "558ad7fe60cdd409224e9633": true,
+      "558ad7fe60cdd409224e9634": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e962d",
+    "parentId": "558ad7fe60cdd409224e962c",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI4",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "40",
+      "faceCount": 9424,
+      "vertexCount": 18711,
+      "boundingbox": {
+        "min": {
+          "x": -0.588601,
+          "y": -0.14897000000000002,
+          "z": -0.587921
+        },
+        "max": {
+          "x": 0.5886159999999999,
+          "y": 0.14876400000000004,
+          "z": 0.587901
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": -0.0028882790356865584,
+        "y": -0.00011009481386299999,
+        "z": 0.0004743493045680225
+      },
+      "orientation": {
+        "x": -2.7500124916621515e-16,
+        "y": 0.21643959768789325,
+        "z": 9.115770693745294e-16,
+        "w": 0.9762960107225179
+      },
+      "scale": {
+        "x": 0.9999999999999999,
+        "y": 0.9999999999999998,
+        "z": 0.9999999999999999
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e962c",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "ARMR",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "37",
+      "faceCount": 1660,
+      "vertexCount": 3152,
+      "boundingbox": {
+        "min": {
+          "x": -0.230773,
+          "y": -0.33617500000000006,
+          "z": -0.33709000000000006
+        },
+        "max": {
+          "x": 1.5284939999999998,
+          "y": 0.33617500000000006,
+          "z": 0.33609200000000006
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": -2.4086089134216304,
+        "y": -1.2264293432235718,
+        "z": 1.1397773399999999e-7
+      },
+      "orientation": {
+        "x": -0.6903455310408928,
+        "y": -0.15304590086594172,
+        "z": 0.15304591361885328,
+        "w": 0.6903455282136407
+      },
+      "scale": {
+        "x": 0.9999999999999999,
+        "y": 0.9999999999999999,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e962d": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e962b",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "OMNI1",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "34",
+      "faceCount": 9424,
+      "vertexCount": 18664,
+      "boundingbox": {
+        "min": {
+          "x": -0.14897000000000002,
+          "y": -0.5885629999999996,
+          "z": -0.5880799999999999
+        },
+        "max": {
+          "x": 0.14876400000000004,
+          "y": 0.5885699999999999,
+          "z": 0.5880849999999999
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 1.6111604899999996e-7,
+        "y": -1.207172393798828,
+        "z": 2.419694662094116
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e962a",
+    "parentId": "558ad7fe60cdd409224e9629",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "mesh",
+    "name": "BASE",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "geometryId": "558ad7fe60cdd409224e963d",
+      "geometryName": "31",
+      "faceCount": 8368,
+      "vertexCount": 14529,
+      "boundingbox": {
+        "min": {
+          "x": -2.163543,
+          "y": -2.644893,
+          "z": -2.903661
+        },
+        "max": {
+          "x": 2.163541,
+          "y": 2.644893,
+          "z": 1.736824
+        }
+      },
+      "material": "558ad7fe60cdd409224e9675",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e9629",
+    "parentId": "558ad7fe60cdd409224e9628",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "blend_root",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e962a": true,
+      "558ad7fe60cdd409224e962b": true,
+      "558ad7fe60cdd409224e962c": true,
+      "558ad7fe60cdd409224e962e": true,
+      "558ad7fe60cdd409224e9635": true,
+      "558ad7fe60cdd409224e9637": true,
+      "558ad7fe60cdd409224e963b": true,
+      "558ad7fe60cdd409224e963c": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9628",
+    "parentId": "558ad7fe60cdd409224e9627",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "node",
+    "name": "RootNode",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9629": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e9627",
+    "parentAssetId": "558ad7fe60cdd409224e9627",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "model",
+    "name": "BB8V2FBXHD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "parentFolderId": "558ad7fe60cdd409224e965b",
+    "folder": "b9ffbe40c7b5f23b11d25c3190d888fa",
+    "payload": {
+      "boundingbox": {
+        "min": {
+          "x": -3.744914523874929,
+          "y": -3.3340240000000003,
+          "z": -3.7253815894667985
+        },
+        "max": {
+          "x": 3.7449137018560075,
+          "y": 7.061943979181435,
+          "z": 3.7695695913852347
+        }
+      },
+      "formatVersion": 6,
+      "modelData": {
+        "totalFaces": 131832,
+        "totalVertices": 248729,
+        "meshCount": 19
+      },
+      "visible": true,
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "castShadow": true,
+      "receiveShadow": true,
+      "opacity": 1,
+      "selectable": true
+    },
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {
+      "558ad7fe60cdd409224e9628": true
+    }
+  },
+  {
+    "id": "558ad7fe60cdd409224e965c",
+    "parentAssetId": "558ad7fe60cdd409224e965c",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "folder",
+    "name": "Materials",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "555a546d33a8bd4d5f3b769b",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  },
+  {
+    "id": "558ad7fe60cdd409224e965b",
+    "parentAssetId": "558ad7fe60cdd409224e965b",
+    "projectId": "558ad7fd60cdd409224e9624",
+    "type": "folder",
+    "name": "BB8V2FBXHD",
+    "description": "",
+    "tags": [],
+    "currentVersion": 1,
+    "rootFolder": "55897d8f20ff104f0a9c848d",
+    "payload": {},
+    "resources": [],
+    "components": {},
+    "componentsOrder": [],
+    "template": false,
+    "children": {}
+  }
+]
