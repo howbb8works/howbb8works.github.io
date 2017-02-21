@@ -535,8 +535,10 @@
 
 
   <script>
-    $.get("http://getcitydetails.geobytes.com/GetCityDetails?callback=?", function (response) {
-      var country = response.geobytesinternet;
+    $.get("http://ipinfo.io", function (response) {
+
+      var country = response.country;
+
           if (country == 'ES' || country == 'es'){
             $('#amazon-us').addClass('hidden');
             $('#amazon-es').removeClass('hidden').addClass('visible');
