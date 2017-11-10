@@ -574,29 +574,13 @@
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 
-  <!-- SCRIPT CONTROL DE COOKIES -->
-  	<script type="text/javascript">
-  	function controlcookies() {
-  	    // si variable no existe se crea (primera visita)
-  	    localStorage.controlcookie = (localStorage.controlcookie || 0);
-
-  	    localStorage.controlcookie++; // incrementamos cuenta de visitas
-  	    cookie1.style.display='none'; // Esconde la política de cookies
-  	}
-  	</script>
-
-  <div class="cookiesms" id="cookie1">
-  	Esta web usa cookies. Al navegar el usuario acepta el uso que hago de las cookies. <a href="politica-cookies.html" target="_blank">Leer política de cookies.</a> <button class="accept-cookies" onclick="controlcookies()">Aceptar</button>
-  	<div  class="cookies2">Política de cookies &darr;</div>
-  </div>
-
+  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
   <script type="text/javascript">
-
-  	if (!localStorage.controlcookie>0){
-  	cookie1.setAttribute("style","animation: desaparecer 5s;-webkit-animation: desaparecer 5s;");
-  	}
-
+      window.cookieconsent_options = {"message":"Esta web usa cookies para ofrecerte una mejor experiencia. ","dismiss":"Vale!","learnMore":"Más info.","link":"politica-cookies.html","theme":"dark-bottom","target":"_blank"};
   </script>
+
+  <script async type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+  <!-- End Cookie Consent plugin -->
 
 
 </body>
@@ -605,5 +589,3 @@
 
 <!-- /nonessential stylesheets -->
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500|Righteous|Bitter' rel='stylesheet' type='text/css'>
-<link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="../styles/cookies.css">
