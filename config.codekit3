@@ -250,13 +250,6 @@
 		"oAP": "\/fr\/index.html",
 		"oF": 0
 		},
-	"\/googlea433361b84c69688.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/googlea433361b84c69688.html",
-		"oF": 0
-		},
 	"\/icon.png": {
 		"ft": 32768,
 		"iS": 3475,
@@ -275,7 +268,7 @@
 		"oAP": "\/img\/banner-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/bb-8.jpg": {
@@ -285,7 +278,7 @@
 		"oAP": "\/img\/bb-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/bb8-disassembled.png": {
@@ -294,8 +287,8 @@
 		"oA": 0,
 		"oAP": "\/img\/bb8-disassembled.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -305,8 +298,8 @@
 		"oA": 0,
 		"oAP": "\/img\/bb8-patent.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -316,8 +309,8 @@
 		"oA": 0,
 		"oAP": "\/img\/bb8-sketch.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -327,8 +320,8 @@
 		"oA": 0,
 		"oAP": "\/img\/bb8-wireframe (1).png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -338,8 +331,8 @@
 		"oA": 0,
 		"oAP": "\/img\/bb8-wireframe.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -350,7 +343,7 @@
 		"oAP": "\/img\/carlos-sanchez.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/EGPJET3D.jpg": {
@@ -360,7 +353,7 @@
 		"oAP": "\/img\/EGPJET3D.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/es.svg": {
@@ -549,8 +542,8 @@
 		"oA": 0,
 		"oAP": "\/img\/how-sphero-works.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -570,8 +563,8 @@
 		"oA": 0,
 		"oAP": "\/img\/howbb8works.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -581,8 +574,8 @@
 		"oA": 0,
 		"oAP": "\/img\/howbb8works_.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -593,7 +586,7 @@
 		"oAP": "\/img\/jj-abrams-bb8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/matt-denton.jpg": {
@@ -603,7 +596,7 @@
 		"oAP": "\/img\/matt-denton.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/popsci (1).svg": {
@@ -633,7 +626,7 @@
 		"oAP": "\/img\/ralph-mcquarrie-bb8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/sphero-bb8.png": {
@@ -642,8 +635,8 @@
 		"oA": 0,
 		"oAP": "\/img\/sphero-bb8.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -653,8 +646,8 @@
 		"oA": 0,
 		"oAP": "\/img\/xwing (1).png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -664,8 +657,8 @@
 		"oA": 0,
 		"oAP": "\/img\/xwing.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
