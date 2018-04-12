@@ -599,15 +599,13 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/popsci (1).svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/popsci (1).svg",
+	"\/img\/mechanism.gif": {
+		"ft": 4194304,
+		"iS": 6681174,
+		"oA": 0,
+		"oAP": "\/img\/mechanism.gif",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"opt": 0
 		},
 	"\/img\/popsci.svg": {
 		"ft": 2097152,
