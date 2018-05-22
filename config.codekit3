@@ -7,7 +7,7 @@
 		"uuidString": "929B5703-33B9-4156-AD92-C933A07537D3"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -55,6 +55,7 @@
 	"\/entities\/5550df1b167d61e372b7850f\/ed2dce9c69ae28c3070fef9731950ad5\/3daf7f73-190a-4d01-8b23-772f4029bd41-tex-low.jpg": {
 		"ft": 16384,
 		"iS": 161025,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/5550df1b167d61e372b7850f\/ed2dce9c69ae28c3070fef9731950ad5\/3daf7f73-190a-4d01-8b23-772f4029bd41-tex-low.jpg",
 		"oF": 0,
@@ -65,6 +66,7 @@
 	"\/entities\/5550df1b167d61e372b7850f\/ed2dce9c69ae28c3070fef9731950ad5\/3daf7f73-190a-4d01-8b23-772f4029bd41-tex.jpg": {
 		"ft": 16384,
 		"iS": 431847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/5550df1b167d61e372b7850f\/ed2dce9c69ae28c3070fef9731950ad5\/3daf7f73-190a-4d01-8b23-772f4029bd41-tex.jpg",
 		"oF": 0,
@@ -114,6 +116,7 @@
 	"\/entities\/555a546d33a8bd4d5f3b769b\/23e45b4c862b9b10bf278d11e59878d9\/7b95de1b-f517-4167-835e-ddca0ef915dd-tex-low.jpg": {
 		"ft": 16384,
 		"iS": 161025,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/555a546d33a8bd4d5f3b769b\/23e45b4c862b9b10bf278d11e59878d9\/7b95de1b-f517-4167-835e-ddca0ef915dd-tex-low.jpg",
 		"oF": 0,
@@ -124,6 +127,7 @@
 	"\/entities\/555a546d33a8bd4d5f3b769b\/23e45b4c862b9b10bf278d11e59878d9\/7b95de1b-f517-4167-835e-ddca0ef915dd-tex.jpg": {
 		"ft": 16384,
 		"iS": 431847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/555a546d33a8bd4d5f3b769b\/23e45b4c862b9b10bf278d11e59878d9\/7b95de1b-f517-4167-835e-ddca0ef915dd-tex.jpg",
 		"oF": 0,
@@ -198,6 +202,7 @@
 	"\/entities\/55897d8f20ff104f0a9c848d\/b9ffbe40c7b5f23b11d25c3190d888fa\/5b753241-5768-4b31-864e-191d44d82149-tex-low.jpg": {
 		"ft": 16384,
 		"iS": 165391,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/55897d8f20ff104f0a9c848d\/b9ffbe40c7b5f23b11d25c3190d888fa\/5b753241-5768-4b31-864e-191d44d82149-tex-low.jpg",
 		"oF": 0,
@@ -208,6 +213,7 @@
 	"\/entities\/55897d8f20ff104f0a9c848d\/b9ffbe40c7b5f23b11d25c3190d888fa\/5b753241-5768-4b31-864e-191d44d82149-tex.jpg": {
 		"ft": 16384,
 		"iS": 440304,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/entities\/55897d8f20ff104f0a9c848d\/b9ffbe40c7b5f23b11d25c3190d888fa\/5b753241-5768-4b31-864e-191d44d82149-tex.jpg",
 		"oF": 0,
@@ -264,6 +270,7 @@
 	"\/img\/banner-bg.jpg": {
 		"ft": 16384,
 		"iS": 78063,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/banner-bg.jpg",
 		"oF": 0,
@@ -274,6 +281,7 @@
 	"\/img\/bb-8.jpg": {
 		"ft": 16384,
 		"iS": 162251,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/bb-8.jpg",
 		"oF": 0,
@@ -339,6 +347,7 @@
 	"\/img\/carlos-sanchez.jpg": {
 		"ft": 16384,
 		"iS": 7504,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/carlos-sanchez.jpg",
 		"oF": 0,
@@ -349,6 +358,7 @@
 	"\/img\/EGPJET3D.jpg": {
 		"ft": 16384,
 		"iS": 11675,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/EGPJET3D.jpg",
 		"oF": 0,
@@ -582,6 +592,7 @@
 	"\/img\/jj-abrams-bb8.jpg": {
 		"ft": 16384,
 		"iS": 97410,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/jj-abrams-bb8.jpg",
 		"oF": 0,
@@ -592,6 +603,7 @@
 	"\/img\/matt-denton.jpg": {
 		"ft": 16384,
 		"iS": 56155,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/matt-denton.jpg",
 		"oF": 0,
@@ -620,6 +632,7 @@
 	"\/img\/ralph-mcquarrie-bb8.jpg": {
 		"ft": 16384,
 		"iS": 114377,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/ralph-mcquarrie-bb8.jpg",
 		"oF": 0,
@@ -1111,7 +1124,8 @@
 	"creationDate": 532014992,
 	"displayValue": "howbb8works.github.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_green"
+	"iconImageName": "brackets_green",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1119,6 +1133,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1682,6 +1697,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2909,6 +2928,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
